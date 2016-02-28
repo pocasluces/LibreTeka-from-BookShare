@@ -1,0 +1,2442 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-25 22:28:45 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2016-01-25 22:28:58 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/index" for 127.0.0.1 at 2016-01-25 22:34:54 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-25 22:34:58 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 19:13:38 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 19:55:46 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 20:11:16 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 20:14:48 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 20:15:07 +0100
+
+PG::Error (fe_sendauth: no password supplied
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-05 20:31:35 +0100
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 17:32:48 +0100
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 17:34:57 +0100
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 17:38:25 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+SQLite3::SQLException: no such table: books: SELECT  "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Completed 500 Internal Server Error in 67ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: books: SELECT  "books".* FROM "books" ORDER BY RANDOM() LIMIT 30):
+  app/controllers/pages_controller.rb:3:in `home'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (233.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (127.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateUsers (20101101212939)
+  [1m[36mSQL (1.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20101101212939')
+Migrating to CreateBooks (20101101213832)
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20101101213832')
+Migrating to AddExtraUserFields (20101217153147)
+  [1m[36mSQL (0.5ms)[0m  [1mALTER TABLE "users" ADD "login" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35mSQL (0.2ms)[0m  ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+  [1m[36mSQL (0.1ms)[0m  [1mALTER TABLE "users" ADD "crypted_password" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35mSQL (0.1ms)[0m  ALTER TABLE "users" ADD "password_salt" varchar(255) DEFAULT '' NOT NULL
+  [1m[36mSQL (0.1ms)[0m  [1mALTER TABLE "users" ADD "persistence_token" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35mSQL (0.2ms)[0m  ALTER TABLE "users" ADD "single_access_token" varchar(255) DEFAULT '' NOT NULL
+  [1m[36mSQL (0.2ms)[0m  [1mALTER TABLE "users" ADD "perishable_token" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35mSQL (0.3ms)[0m  ALTER TABLE "users" ADD "login_count" integer DEFAULT 0 NOT NULL
+  [1m[36mSQL (0.2ms)[0m  [1mALTER TABLE "users" ADD "failed_login_count" integer DEFAULT 0 NOT NULL[0m
+  [1m[35mSQL (0.2ms)[0m  ALTER TABLE "users" ADD "last_request_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mALTER TABLE "users" ADD "current_login_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  ALTER TABLE "users" ADD "last_login_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mALTER TABLE "users" ADD "current_login_ip" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  ALTER TABLE "users" ADD "last_login_ip" varchar(255)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20101217153147')[0m
+Migrating to CreateTitles (20101218114935)
+  [1m[35mSQL (0.6ms)[0m  CREATE TABLE "titles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar(255) DEFAULT '', "subtitle" varchar(255), "description" text, "image_url" varchar(255), "subject_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20101218114935')[0m
+Migrating to CreateSubjects (20101218115937)
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "subjects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT '', "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20101218115937')[0m
+Migrating to CreateAuthors (20101218120054)
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "authors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT '', "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "authors_titles" ("author_id" integer, "title_id" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("authors_titles")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_authors_titles_on_author_id" ON "authors_titles" ("author_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("authors_titles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_authors_titles_on_author_id')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "index_authors_titles_on_title_id" ON "authors_titles" ("title_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20101218120054')[0m
+Migrating to AddTitleAndUserIdsToBooks (20101218122711)
+  [1m[35mSQL (1.5ms)[0m  DROP TABLE "books"
+  [1m[36mSQL (0.8ms)[0m  [1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20101218122711')
+Migrating to CreateWatchings (20110103164416)
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE TABLE "watchings" ("member_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110103164416')
+Migrating to AddUsersToWatchings (20110103164855)
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_watchings" ("user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("watchings")
+  [1m[36mSQL (0.4ms)[0m  [1mDROP TABLE "watchings"[0m
+  [1m[35mSQL (0.1ms)[0m  CREATE TABLE "watchings" ("user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("altered_watchings")[0m
+  [1m[35mSQL (0.1ms)[0m  DROP TABLE "altered_watchings"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110103164855')[0m
+Migrating to AddIdToWatchings (20110108210356)
+  [1m[35mSQL (0.4ms)[0m  DROP TABLE "watchings"
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE TABLE "watchings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110108210356')
+Migrating to CreateLoans (20110109153037)
+  [1m[36mSQL (1.7ms)[0m  [1mCREATE TABLE "loans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "due" date, "returned" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.6ms)[0m  ALTER TABLE "books" ADD "status" integer DEFAULT 0
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110109153037')[0m
+Migrating to AddAddressFieldsToUser (20110111162058)
+  [1m[35mSQL (0.5ms)[0m  ALTER TABLE "users" ADD "first_name" varchar(255)
+  [1m[36mSQL (0.6ms)[0m  [1mALTER TABLE "users" ADD "last_name" varchar(255)[0m
+  [1m[35mSQL (0.6ms)[0m  ALTER TABLE "users" ADD "address1" varchar(255)
+  [1m[36mSQL (0.5ms)[0m  [1mALTER TABLE "users" ADD "address2" varchar(255)[0m
+  [1m[35mSQL (0.7ms)[0m  ALTER TABLE "users" ADD "city" varchar(255)
+  [1m[36mSQL (0.8ms)[0m  [1mALTER TABLE "users" ADD "county" varchar(255)[0m
+  [1m[35mSQL (0.5ms)[0m  ALTER TABLE "users" ADD "postcode" varchar(255)
+  [1m[36mSQL (0.5ms)[0m  [1mALTER TABLE "users" ADD "phone" varchar(255)[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110111162058')
+Migrating to CreateSearches (20110228221120)
+  [1m[36mSQL (1.0ms)[0m  [1mCREATE TABLE "searches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "query" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110228221120')
+Migrating to AddResultsCountToSearches (20110228221908)
+  [1m[36mSQL (0.6ms)[0m  [1mALTER TABLE "searches" ADD "results" integer[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110228221908')
+Migrating to RemoveDueFromLoans (20110323151412)
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_loans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "due" date, "returned" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("loans")
+  [1m[36mSQL (0.4ms)[0m  [1mDROP TABLE "loans"[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE TABLE "loans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "returned" datetime, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_loans")[0m
+  [1m[35mSQL (0.1ms)[0m  DROP TABLE "altered_loans"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110323151412')[0m
+Migrating to AddStatusToUsers (20110817142642)
+  [1m[35mSQL (2.0ms)[0m  ALTER TABLE "users" ADD "status" varchar(255) DEFAULT 'user'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110817142642')[0m
+Migrating to CreateBans (20110825153442)
+  [1m[35mSQL (1.5ms)[0m  CREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "admin_id" integer, "reason" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110825153442')[0m
+Migrating to AddBannedToUsers (20110825170855)
+  [1m[35mSQL (1.5ms)[0m  ALTER TABLE "users" ADD "banned" boolean DEFAULT 'f'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110825170855')[0m
+Migrating to AddUnbannedByToBans (20110830190734)
+  [1m[35mSQL (0.8ms)[0m  ALTER TABLE "bans" ADD "unbanned_by" integer
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE TEMPORARY TABLE "altered_bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banned_by" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("bans")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "bans"[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banned_by" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_bans")[0m
+  [1m[35mSQL (0.3ms)[0m  DROP TABLE "altered_bans"
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110830190734')[0m
+Migrating to RenameBannedByAndUnBannedByInBans (20110830202726)
+  [1m[35mSQL (0.2ms)[0m  CREATE TEMPORARY TABLE "altered_bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("bans")[0m
+  [1m[35mSQL (0.4ms)[0m  DROP TABLE "bans"
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("altered_bans")
+  [1m[36mSQL (0.1ms)[0m  [1mDROP TABLE "altered_bans"[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanner" integer) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("bans")[0m
+  [1m[35mSQL (0.2ms)[0m  DROP TABLE "bans"
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanner" integer) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("altered_bans")
+  [1m[36mSQL (0.1ms)[0m  [1mDROP TABLE "altered_bans"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110830202726')
+Migrating to CreateSubjectsTitlesJoinTable (20111024165639)
+  [1m[36mSQL (0.9ms)[0m  [1mCREATE TABLE "subjects_titles" ("subject_id" integer, "title_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_titles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar(255) DEFAULT '', "subtitle" varchar(255), "description" text, "image_url" varchar(255), "subject_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("titles")[0m
+  [1m[35mSQL (0.5ms)[0m  DROP TABLE "titles"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "titles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar(255) DEFAULT '', "subtitle" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_titles")
+  [1m[36mSQL (0.1ms)[0m  [1mDROP TABLE "altered_titles"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111024165639')
+  [1m[36mSQL (0.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("authors")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("authors_titles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_authors_titles_on_title_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_authors_titles_on_author_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("bans")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("books")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("loans")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("searches")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("subjects")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("subjects_titles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("titles")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("watchings")[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 17:38:50 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Completed 500 Internal Server Error in 43ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-06 17:39:05 +0100
+
+ActionController::RoutingError (No route matches "/home"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/h" for 127.0.0.1 at 2016-02-06 17:39:10 +0100
+
+ActionController::RoutingError (No route matches "/h"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 17:39:13 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Completed 500 Internal Server Error in 18ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-06 17:39:40 +0100
+  Processing by UserSessionsController#new as HTML
+Completed 500 Internal Server Error in 160ms
+
+ActionView::MissingTemplate (Missing template user_sessions/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:01:11 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:06:44 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Completed 500 Internal Server Error in 42ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:06:49 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:08:33 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template pages/home with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/carlos/APP/casterbridgebookshare/app/views", "/home/carlos/APP/casterbridgebookshare/vendor/plugins/isbn_validation/app/views"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:12:02 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (255.6ms)
+Completed 500 Internal Server Error in 271ms
+
+ActionView::Template::Error (No route matches {:controller=>"themes_for_rails/assets", :action=>"images", :theme=>nil, :asset=>"favicon.ico"}):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1937500451268094917_69813118580820__3909334427865751096'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:16:47 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (49.8ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (No route matches {:controller=>"themes_for_rails/assets", :action=>"images", :theme=>nil, :asset=>"favicon.ico"}):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1937500451268094917_69813124930740__3909334427865751096'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:18:41 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (44.1ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (No route matches {:controller=>"themes_for_rails/assets", :action=>"images", :theme=>nil, :asset=>"favicon.ico"}):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1937500451268094917_25994600__3909334427865751096'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:18:42 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (46.7ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (No route matches {:controller=>"themes_for_rails/assets", :action=>"images", :theme=>nil, :asset=>"favicon.ico"}):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1937500451268094917_69813126912780__3909334427865751096'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:18:48 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (45.9ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (No route matches {:controller=>"themes_for_rails/assets", :action=>"images", :theme=>nil, :asset=>"favicon.ico"}):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1937500451268094917_69813118791440__3909334427865751096'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:19:02 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (72.9ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000000aceb30>:0x00000000abe528>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3867848326235478416_5561260_1748489893790187472'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:26:35 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (68.5ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000002ad7030>:0x00000002ad5370>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___348992239195684556_22428680_445058930892589834'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 18:26:36 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (56.4ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f6f5d265da8>:0x007f6f5d264e30>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___348992239195684556_70058140464360_445058930892589834'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:09:49 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (40.3ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (187.4ms)
+Completed 500 Internal Server Error in 328ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000003e2efe8>:0x00000003e2d350>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__4097262159616280488_32548180_3984640578683202432'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:30:03 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (75.8ms)
+Completed 500 Internal Server Error in 160ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000004d452c0>:0x00000004d43790>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__74799203731517699_40496580__2697405616520104002'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:30:07 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (53.8ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f16450dfce8>:0x007f16450ded70>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__74799203731517699_69866812269740__2697405616520104002'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:30:09 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (77.4ms)
+Completed 500 Internal Server Error in 101ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f164505ac78>:0x007f1645059c60>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__74799203731517699_69866811988740__2697405616520104002'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:36:08 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (96.2ms)
+Completed 500 Internal Server Error in 145ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000004d56e58>:0x00000004d55350>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___839288014988275360_40534020_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:36:10 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (49.1ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde709a0fc8>:0x007fde709a0050>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___839288014988275360_70296674323940_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:38:09 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.8ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (68.1ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (undefined method `base_theme_stylesheet_path' for #<#<Class:0x007fde716691b0>:0x007fde71668238>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     = theme_stylesheet_link_tag :reset
+    8:     = theme_stylesheet_link_tag :style
+    9:     = theme_javascript_include_tag 'prototype'
+    10:     = theme_javascript_include_tag 'effects'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___839288014988275360_70296681025260_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:38:37 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296675216040_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (64.9ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde70b6cc08>:0x007fde70b5fc38>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296675216040_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/kdaf" for 127.0.0.1 at 2016-02-07 00:42:24 +0100
+
+ActionController::RoutingError (No route matches "/kdaf"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/k" for 127.0.0.1 at 2016-02-07 00:42:29 +0100
+
+ActionController::RoutingError (No route matches "/k"):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:42:31 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296677920940_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (63.4ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde71069530>:0x007fde710685b8>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296677920940_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:43:41 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 59ms (Views: 45.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:43:43 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (44.3ms)
+Completed 200 OK in 60ms (Views: 49.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:44:07 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (51.8ms)
+Completed 200 OK in 65ms (Views: 56.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:44:18 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296679845700_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (84.6ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde71441450>:0x007fde714404d8>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296679845700_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:49:23 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296677999080_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (230.6ms)
+Completed 500 Internal Server Error in 259ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde710f0918>:0x007fde710d4ab0>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296677999080_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:49:24 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296676184400_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (57.1ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde70d39ef0>:0x007fde70d38c30>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296676184400_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:49:36 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___839288014988275360_70296678622600_1331638545427885475 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (60.6ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fde711e0698>:0x007fde711df400>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___839288014988275360_70296678622600_1331638545427885475'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:50:18 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___3315070272267703148_37043020__1795782832520438292 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (87.2ms)
+Completed 500 Internal Server Error in 136ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x000000046d8fe0>:0x000000046c2768>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___3315070272267703148_37043020__1795782832520438292'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:51:40 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___3315070272267703148_70080617106440__1795782832520438292 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (55.3ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f79d4930be8>:0x007f79d493bc28>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___3315070272267703148_70080617106440__1795782832520438292'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:52:16 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.9ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2289662429448762411_37508440__295510199462023372 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (91.6ms)
+Completed 500 Internal Server Error in 141ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x000000047b8f78>:0x0000000479f0c8>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___2289662429448762411_37508440__295510199462023372'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:52:18 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2289662429448762411_69901705324360__295510199462023372 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (54.0ms)
+Completed 500 Internal Server Error in 73ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f26849e4268>:0x007f2684a172a8>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___2289662429448762411_69901705324360__295510199462023372'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:52:20 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2289662429448762411_69901712173420__295510199462023372 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (57.1ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f26856f46b0>:0x007f26857276f0>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___2289662429448762411_69901712173420__295510199462023372'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:53:16 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2289662429448762411_69901706141860__295510199462023372 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (57.7ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007f2684ba7780>:0x007f2684ba6678>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___2289662429448762411_69901706141860__295510199462023372'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:53:30 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__1695363455589562914_34586800_1504061344837439205 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (92.1ms)
+Completed 500 Internal Server Error in 150ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000004208ec0>:0x000000041fb9f0>):
+    24:         = submit_tag "Find Books", { :class => 'bigfield' }
+    25:         
+    26:     %h1.logo
+    27:       = link_to(theme_image_tag('logo.png', :alt => "Logo"), :controller => 'pages', :action => 'home')
+    28:       = CONFIG[:sitename]
+    29:       
+    30:     #userbar
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml__1695363455589562914_34586800_1504061344837439205'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:54:58 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (55.0ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007faa28a1fd18>:0x007faa28a1eda0>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1695363455589562914_70184401429700_1504061344837439205'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:55:19 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (48.6ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 6 spaces.):
+    3:   
+    4:       = yield
+    5:     
+    6:     #footer
+    7:       %a{ :href => "http://www.nesta.org.uk/" }<
+    8:         Powered by NESTA Bookshare 
+    9:       &nbsp;&nbsp;
+  app/views/layouts/application.html.haml:6
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 00:55:51 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (54.5ms)
+Completed 200 OK in 71ms (Views: 60.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-02-07 00:55:58 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (12.4ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___45696036094461814_12253580_1504061344837439205 at /home/carlos/APP/casterbridgebookshare/app/views/users/new.html.haml:12)
+Rendered users/new.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 73ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-07 00:56:40 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"Carlos", "address1"=>"Carlos", "address2"=>"", "city"=>"Carlos", "county"=>"", "postcode"=>"28012", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('carlos@prueba.es')) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."login") = LOWER('carlos')) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE ("users"."persistence_token" = '80b0c474fe103fee7326ff0ae974012991ea5c207a9c2e009306a89d4280e72a7eca0a071905a56f5616486e5acf6cfd3960e138edb78aa97e1ca07cc368d7aa') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."single_access_token" = 'uJ3dPZjV13X83DcCPQg') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "login", "email", "crypted_password", "password_salt", "persistence_token", "single_access_token", "perishable_token", "login_count", "failed_login_count", "last_request_at", "current_login_at", "last_login_at", "current_login_ip", "last_login_ip", "first_name", "last_name", "address1", "address2", "city", "county", "postcode", "phone", "status", "banned") VALUES ('2016-02-06 23:56:40.215714', '2016-02-06 23:56:40.215714', 'carlos', 'carlos@prueba.es', '4ddfab244ecece7f6c3fbee991fb6b5c7abb32c47ed3df82271b468f5bef38f301eac75ab780f9bd0548ed911a22f307b0c3655948589309a114bbb3c1dd3723', 'oDmAsp6tKNecY53EizZQ', '80b0c474fe103fee7326ff0ae974012991ea5c207a9c2e009306a89d4280e72a7eca0a071905a56f5616486e5acf6cfd3960e138edb78aa97e1ca07cc368d7aa', 'uJ3dPZjV13X83DcCPQg', 'axeAcO3mOvsNDosYBfQ', 1, 0, '2016-02-06 23:56:40.214950', '2016-02-06 23:56:40.214419', NULL, '127.0.0.1', NULL, 'Carlos', 'Carlos', 'Carlos', '', 'Carlos', '', '28012', '', 'user', 'f')
+Rendered member_message/registration_confirmation.html.haml within layouts/member_message (10.3ms)
+
+Sent mail to carlos@prueba.es (21ms)
+Date: Sun, 07 Feb 2016 00:56:40 +0100
+To: carlos@prueba.es
+Message-ID: <56b6883886acc_54b73fd5149130c46897b@carlos-Inspiron-3521.mail>
+Subject: Welcome to
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>
+      Welcome to
+      
+    </h2>
+    <p>Thanks for signing up. You're already logged in and ready to get started.</p>
+    <h3>Getting Started</h3>
+    <ul>
+      <li>
+        Add some books you'd like to lend to your
+        <a href="http://0.0.0.0:3000/books">My Books</a>
+        page.
+      </li>
+      <li>
+        Let your friends and colleagues know about your books by sending them the link to your public books page:
+        <a href="http://0.0.0.0:3000/members/carlos">http://0.0.0.0:3000/members/carlos</a>
+      </li>
+    </ul>
+    <h3>Tips</h3>
+    <ul>
+      <li>
+        You can borrow as many books as you like as long as the owners are happy to lend them to you.
+      </li>
+      <li>
+        If someone requests a book from you, you don't have to lend it if you don't want to.
+      </li>
+      <li>
+        You can lend a book for a minimum of one week. There's no maximum.
+      </li>
+      <li>
+        Need help? Got a comment or complaint?
+        <a href="http://0.0.0.0:3000/contact">Get in touch.</a>
+      </li>
+    </ul>
+    <hr>
+    <p>
+      Your username is
+      <strong>
+        carlos
+      </strong>
+      and you can login at
+      <a href="http://0.0.0.0:3000/login">http://0.0.0.0:3000/login</a>
+    </p>
+  </body>
+</html>
+Completed 500 Internal Server Error in 492ms
+
+ArgumentError (A sender (Return-Path, Sender or From) required to send a message):
+  app/models/user.rb:132:in `send_registration_confirmation'
+  app/controllers/users_controller.rb:16:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-02-07 00:57:11 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (13.0ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___45696036094461814_14075980_1504061344837439205 at /home/carlos/APP/casterbridgebookshare/app/views/users/new.html.haml:12)
+Rendered users/new.html.haml within layouts/application (63.3ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000001b4df60>:0x00000001b279a0>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1695363455589562914_13538980_1504061344837439205'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.8ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-02-07 18:11:33 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (12.4ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___45696036094461814_70184405922220_1504061344837439205 at /home/carlos/APP/casterbridgebookshare/app/views/users/new.html.haml:12)
+Rendered users/new.html.haml within layouts/application (80.7ms)
+Completed 500 Internal Server Error in 892ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007faa292cd208>:0x007faa292af708>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1695363455589562914_70184405919720_1504061344837439205'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (26.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/casterbridgebookshare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 21:48:10 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (34.3ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (181.9ms)
+Completed 500 Internal Server Error in 322ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x000000046aa8e8>:0x000000046a85e8>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_37000960__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 21:50:19 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (47.0ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fb8f8a81f20>:0x007fb8f8a80fa8>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_70216211273120__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 21:59:54 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (52.9ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fb8f97dbba8>:0x007fb8f97dac30>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_70216218231820__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:00:01 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (50.2ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fb8f8ad7df8>:0x007fb8f8ad6e80>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     %link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     %link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_70216211407720__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:00:38 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (41.5ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (Illegal element: classes and ids must have values.):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     #%link{ :rel => 'shortcut icon', :href => theme_image_path('favicon.ico'), :type => 'image/x-icon' }
+    8:     #%link{ :rel => 'apple-touch-icon', :href => theme_image_path('apple-touch-icon.png')  }
+    9:     = theme_stylesheet_link_tag :reset
+    10:     = theme_stylesheet_link_tag :style
+  app/views/layouts/application.html.haml:7
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:04:23 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (49.7ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (undefined method `base_theme_stylesheet_path' for #<#<Class:0x007fb8f98240b0>:0x007fb8f97e70c0>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     = theme_stylesheet_link_tag :reset
+    8:     = theme_stylesheet_link_tag :style
+    9:     = theme_javascript_include_tag 'prototype'
+    10:     = theme_javascript_include_tag 'effects'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_70216218256960__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:04:26 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+Rendered pages/home.html.haml within layouts/application (69.7ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (undefined method `base_theme_stylesheet_path' for #<#<Class:0x0000000429a848>:0x00000004298c00>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     = theme_stylesheet_link_tag :reset
+    8:     = theme_stylesheet_link_tag :style
+    9:     = theme_javascript_include_tag 'prototype'
+    10:     = theme_javascript_include_tag 'effects'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_34882860__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:04:54 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+Rendered pages/home.html.haml within layouts/application (47.4ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined method `base_theme_javascript_path' for #<#<Class:0x007fb8f9827d50>:0x007fb8f9826d88>):
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7:     = theme_javascript_include_tag 'prototype'
+    8:     = theme_javascript_include_tag 'effects'
+    9:     = theme_javascript_include_tag 'dragdrop'
+    10:     = theme_javascript_include_tag 'controls'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__954627506455699529_70216218387560__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:05:03 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_34623820__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (60.8ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x00000004212830>:0x00000004211160>):
+    75:         &nbsp;&nbsp;
+    76:         = link_to theme_image_tag('twitter.png', :alt => "@#{CONFIG[:twitter]} on Twitter", :size => "16x16"), "http://twitter.com/#{CONFIG[:twitter]}"
+    77:       &nbsp;&nbsp;
+    78:       = link_to (theme_image_tag 'rss-mono.png', :alt => "Atom feed for new books", :size => "16x16"), titles_path(:format => :atom)
+    79: 
+    80: 
+    81:     - unless CONFIG[:google_analytics].nil?
+  app/views/layouts/application.html.haml:78:in `_app_views_layouts_application_html_haml__954627506455699529_34623820__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:05:32 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216217416840__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (45.8ms)
+Completed 200 OK in 57ms (Views: 49.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-13 22:05:43 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216210370280__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 57ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-02-13 22:06:43 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (12.2ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___1204906108025364616_70216217156480__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216217153860__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered users/new.html.haml within layouts/application (42.9ms)
+Completed 200 OK in 82ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-13 22:07:36 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"González", "address1"=>"calle buendía", "address2"=>"", "city"=>"azuqueca", "county"=>"", "postcode"=>"19200", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('carlos@prueba.es')) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."login") = LOWER('carlos')) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE ("users"."persistence_token" = '57c32c700f389229835ca0290ba45af4285709323932dfeb7a39f69dd8a672ee4e112e5994c0a129e757d4e3c7968eb459eb2689768f99462dd9b74254d38f3b') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."single_access_token" = 'cGi5zD4a0dsLUbrMVQS') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "login", "email", "crypted_password", "password_salt", "persistence_token", "single_access_token", "perishable_token", "login_count", "failed_login_count", "last_request_at", "current_login_at", "last_login_at", "current_login_ip", "last_login_ip", "first_name", "last_name", "address1", "address2", "city", "county", "postcode", "phone", "status", "banned") VALUES ('2016-02-13 21:07:36.582508', '2016-02-13 21:07:36.582508', 'carlos', 'carlos@prueba.es', '378cf5c6cbdc2d546b8ccf163db4ef569b7b5564f62eb0d4261131f340cbfd0d94f37542ae68cd264dfe5f47754d522cb3a4f7610970aaf3a594767fb5d8e632', 'D5LwH4RRnGuinKdbKFn', '57c32c700f389229835ca0290ba45af4285709323932dfeb7a39f69dd8a672ee4e112e5994c0a129e757d4e3c7968eb459eb2689768f99462dd9b74254d38f3b', 'cGi5zD4a0dsLUbrMVQS', 'MCU7ePUJgawNniKfEeC9', 1, 0, '2016-02-13 21:07:36.582053', '2016-02-13 21:07:36.581767', NULL, '127.0.0.1', NULL, 'Carlos', 'González', 'calle buendía', '', 'azuqueca', '', '19200', '', 'user', 'f')
+Rendered member_message/registration_confirmation.html.haml within layouts/member_message (9.8ms)
+
+Sent mail to carlos@prueba.es (12ms)
+Date: Sat, 13 Feb 2016 22:07:36 +0100
+To: carlos@prueba.es
+Message-ID: <56bf9b18d67df_67f820997d061342@carlos-Inspiron-3521.mail>
+Subject: Welcome to
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>
+      Welcome to
+      
+    </h2>
+    <p>Thanks for signing up. You're already logged in and ready to get started.</p>
+    <h3>Getting Started</h3>
+    <ul>
+      <li>
+        Add some books you'd like to lend to your
+        <a href="http://0.0.0.0:3000/books">My Books</a>
+        page.
+      </li>
+      <li>
+        Let your friends and colleagues know about your books by sending them the link to your public books page:
+        <a href="http://0.0.0.0:3000/members/carlos">http://0.0.0.0:3000/members/carlos</a>
+      </li>
+    </ul>
+    <h3>Tips</h3>
+    <ul>
+      <li>
+        You can borrow as many books as you like as long as the owners are happy to lend them to you.
+      </li>
+      <li>
+        If someone requests a book from you, you don't have to lend it if you don't want to.
+      </li>
+      <li>
+        You can lend a book for a minimum of one week. There's no maximum.
+      </li>
+      <li>
+        Need help? Got a comment or complaint?
+        <a href="http://0.0.0.0:3000/contact">Get in touch.</a>
+      </li>
+    </ul>
+    <hr>
+    <p>
+      Your username is
+      <strong>
+        carlos
+      </strong>
+      and you can login at
+      <a href="http://0.0.0.0:3000/login">http://0.0.0.0:3000/login</a>
+    </p>
+  </body>
+</html>
+Completed 500 Internal Server Error in 413ms
+
+ArgumentError (A sender (Return-Path, Sender or From) required to send a message):
+  app/models/user.rb:132:in `send_registration_confirmation'
+  app/controllers/users_controller.rb:16:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/accessibility" for 127.0.0.1 at 2016-02-13 22:08:20 +0100
+  Processing by PagesController#accessibility as HTML
+Rendered pages/accessibility.html.haml within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__954627506455699529_70216211658960__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-02-13 22:08:23 +0100
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.haml within layouts/application (25.6ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__954627506455699529_25185020__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-02-13 22:09:22 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (11.3ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___1204906108025364616_70216217500360__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216217496720__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+Rendered users/new.html.haml within layouts/application (42.0ms)
+Completed 200 OK in 81ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-13 22:09:54 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"Carlos", "address1"=>"calle buendía", "address2"=>"", "city"=>"azuqueca", "county"=>"", "postcode"=>"19200", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('carlos@prueba.es')) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."login") = LOWER('carlos')) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE ("users"."persistence_token" = 'deb5f7f6e3312d2f87eb6a99344307728ae77496ffae81fa67ac2f2b785158067e6dd9a88977371bb936cd9da3fa8b6ac22a898a08b144971e3bb7c5c627d892') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."single_access_token" = 'Udhy8wUP3SxxRt0ZPU') LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "login", "email", "crypted_password", "password_salt", "persistence_token", "single_access_token", "perishable_token", "login_count", "failed_login_count", "last_request_at", "current_login_at", "last_login_at", "current_login_ip", "last_login_ip", "first_name", "last_name", "address1", "address2", "city", "county", "postcode", "phone", "status", "banned") VALUES ('2016-02-13 21:09:54.675151', '2016-02-13 21:09:54.675151', 'carlos', 'carlos@prueba.es', 'f3289a4d5b798d70f7936d7f0e27b88f892555d56441ea8161caaad0c0723e12bc78f46c587e9876ac4c0b0f13565aa9ed37ed105e5d53920b0864fbc66fead3', 'SoyOEVHLTQ1rxUIyVwrQ', 'deb5f7f6e3312d2f87eb6a99344307728ae77496ffae81fa67ac2f2b785158067e6dd9a88977371bb936cd9da3fa8b6ac22a898a08b144971e3bb7c5c627d892', 'Udhy8wUP3SxxRt0ZPU', 'bwgonSopP2NlHniBWCjH', 1, 0, '2016-02-13 21:09:54.674796', '2016-02-13 21:09:54.674609', NULL, '127.0.0.1', NULL, 'Carlos', 'Carlos', 'calle buendía', '', 'azuqueca', '', '19200', '', 'user', 'f')[0m
+Rendered member_message/registration_confirmation.html.haml within layouts/member_message (7.2ms)
+
+Sent mail to carlos@prueba.es (3ms)
+Date: Sat, 13 Feb 2016 22:09:54 +0100
+To: carlos@prueba.es
+Message-ID: <56bf9ba2aa22f_67f83fdc7c48b9c461495@carlos-Inspiron-3521.mail>
+Subject: Welcome to
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>
+      Welcome to
+      
+    </h2>
+    <p>Thanks for signing up. You're already logged in and ready to get started.</p>
+    <h3>Getting Started</h3>
+    <ul>
+      <li>
+        Add some books you'd like to lend to your
+        <a href="http://0.0.0.0:3000/books">My Books</a>
+        page.
+      </li>
+      <li>
+        Let your friends and colleagues know about your books by sending them the link to your public books page:
+        <a href="http://0.0.0.0:3000/members/carlos">http://0.0.0.0:3000/members/carlos</a>
+      </li>
+    </ul>
+    <h3>Tips</h3>
+    <ul>
+      <li>
+        You can borrow as many books as you like as long as the owners are happy to lend them to you.
+      </li>
+      <li>
+        If someone requests a book from you, you don't have to lend it if you don't want to.
+      </li>
+      <li>
+        You can lend a book for a minimum of one week. There's no maximum.
+      </li>
+      <li>
+        Need help? Got a comment or complaint?
+        <a href="http://0.0.0.0:3000/contact">Get in touch.</a>
+      </li>
+    </ul>
+    <hr>
+    <p>
+      Your username is
+      <strong>
+        carlos
+      </strong>
+      and you can login at
+      <a href="http://0.0.0.0:3000/login">http://0.0.0.0:3000/login</a>
+    </p>
+  </body>
+</html>
+Completed 500 Internal Server Error in 106ms
+
+ArgumentError (A sender (Return-Path, Sender or From) required to send a message):
+  app/models/user.rb:132:in `send_registration_confirmation'
+  app/controllers/users_controller.rb:16:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-13 22:15:05 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"Carlos", "address1"=>"calle buendía", "address2"=>"", "city"=>"azuqueca", "county"=>"", "postcode"=>"19200", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('carlos@prueba.es')) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."login") = LOWER('carlos')) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE ("users"."single_access_token" = 'a4iRW2dou1wLnQSzLrjm') LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "login", "email", "crypted_password", "password_salt", "persistence_token", "single_access_token", "perishable_token", "login_count", "failed_login_count", "last_request_at", "current_login_at", "last_login_at", "current_login_ip", "last_login_ip", "first_name", "last_name", "address1", "address2", "city", "county", "postcode", "phone", "status", "banned") VALUES ('2016-02-13 21:15:05.679240', '2016-02-13 21:15:05.679240', 'carlos', 'carlos@prueba.es', '0d31c6992bb0ca016292403bf42619937ec89ae88ef0559d4280f21d7478f42af728a9ae91503ff9c7a06c2e51df80d80e494ce16d7b4b472cafb2d950362c6d', '97DGAflBhlAmdJkkoQlJ', 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e', 'a4iRW2dou1wLnQSzLrjm', 'ntsfkZdZZuU539n7OgvA', 1, 0, '2016-02-13 21:15:05.678842', '2016-02-13 21:15:05.678630', NULL, '127.0.0.1', NULL, 'Carlos', 'Carlos', 'calle buendía', '', 'azuqueca', '', '19200', '', 'user', 'f')
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mUPDATE "users" SET "status" = 'admin', "perishable_token" = '8pXbt79GzuZmSle4KdCE', "updated_at" = '2016-02-13 21:15:05.685440' WHERE "users"."id" = 1[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 228ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:15:05 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:15:05.967079', "perishable_token" = 'CiVlAvcHHYM4F2sHXId', "updated_at" = '2016-02-13 21:15:05.967431' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+Rendered books/index.html.haml within layouts/application (15.9ms)
+Completed 500 Internal Server Error in 195ms
+
+ActionView::Template::Error (undefined method `base_theme_image_path' for #<#<Class:0x007fb8f9401c80>:0x007fb8f9337f48>):
+    3: .panel
+    4: 
+    5: 
+    6:   = theme_image_tag 'barcode.jpg', :alt => "Barcode example", :id => "barcode"
+    7: 
+    8:   %h2 Add a Book
+    9:   
+  app/views/books/index.html.haml:6:in `_app_views_books_index_html_haml__4369323735154316340_70216215802180__4034055826981623591'
+  app/controllers/books_controller.rb:9:in `index'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:15:56 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:15:56.270376', "perishable_token" = 'eqI9MQCnq48UJkLnVJC', "updated_at" = '2016-02-13 21:15:56.270769' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+Rendered books/index.html.haml within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 240ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__954627506455699529_70216218859420__4034055826981623591'
+  app/controllers/books_controller.rb:9:in `index'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-13 22:16:28 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"Carlos", "address1"=>"calle buendía", "address2"=>"", "city"=>"azuqueca", "county"=>"", "postcode"=>"19200", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:16:28.224138', "perishable_token" = 'k9GIhgBR1tm2Q7fP0xw4', "updated_at" = '2016-02-13 21:16:28.224772' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/account
+Completed 302 Found in 236ms
+
+
+Started GET "/account" for 127.0.0.1 at 2016-02-13 22:16:28 +0100
+  Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:16:28.502375', "perishable_token" = '1DtHAPOmFlAVNcKBuy', "updated_at" = '2016-02-13 21:16:28.502717' WHERE "users"."id" = 1[0m
+Completed 404 Not Found in 151ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/users_controller.rb:25:in `show'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started POST "/account" for 127.0.0.1 at 2016-02-13 22:16:49 +0100
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user"=>{"first_name"=>"Carlos", "last_name"=>"Carlos", "address1"=>"calle buendía", "address2"=>"", "city"=>"azuqueca", "county"=>"", "postcode"=>"19200", "phone"=>"", "email"=>"carlos@prueba.es", "login"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:16:49.335691', "perishable_token" = 'inVB1lZnwCI3plxCt9rB', "updated_at" = '2016-02-13 21:16:49.336028' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/account
+Completed 302 Found in 210ms
+
+
+Started GET "/account" for 127.0.0.1 at 2016-02-13 22:16:49 +0100
+  Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:16:49.593412', "perishable_token" = 's1FPx2OLRORXqnV690YE', "updated_at" = '2016-02-13 21:16:49.593778' WHERE "users"."id" = 1[0m
+Completed 404 Not Found in 259ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/users_controller.rb:25:in `show'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-13 22:18:07 +0100
+  Processing by UserSessionsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:18:07.914581', "perishable_token" = 'T2PYH6hK7PCcrXK72E', "updated_at" = '2016-02-13 21:18:07.914946' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/account
+Completed 302 Found in 252ms
+
+
+Started GET "/account" for 127.0.0.1 at 2016-02-13 22:18:08 +0100
+  Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:18:08.231116', "perishable_token" = 'lvER1en4jrII90eqlSV0', "updated_at" = '2016-02-13 21:18:08.231507' WHERE "users"."id" = 1[0m
+Completed 404 Not Found in 281ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/users_controller.rb:25:in `show'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-13 22:18:12 +0100
+  Processing by UserSessionsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.7ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:18:12.197817', "perishable_token" = 'dPLmpYfTTaK32K74QmX', "updated_at" = '2016-02-13 21:18:12.198166' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/account
+Completed 302 Found in 199ms
+
+
+Started GET "/account" for 127.0.0.1 at 2016-02-13 22:18:12 +0100
+  Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:18:12.435057', "perishable_token" = 'tuJfdTs3SALgCaRykaD', "updated_at" = '2016-02-13 21:18:12.435469' WHERE "users"."id" = 1[0m
+Completed 404 Not Found in 293ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/users_controller.rb:25:in `show'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 22:20:35 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:20:35.366886', "perishable_token" = 'wPfDvYnWF5Yg3aPqgCo3', "updated_at" = '2016-02-13 21:20:35.367280' WHERE "users"."id" = 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216214046600__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered pages/home.html.haml within layouts/application (240.1ms)
+Completed 200 OK in 251ms (Views: 241.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:20:41 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:20:41.413699', "perishable_token" = '2ek9XPIVWXW72bIlDRJ3', "updated_at" = '2016-02-13 21:20:41.414043' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+Rendered books/index.html.haml within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 242ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__954627506455699529_70216215736300__4034055826981623591'
+  app/controllers/books_controller.rb:9:in `index'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:21:06 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:21:06.446343', "perishable_token" = 'uxSEAuOOyCvwv3Jd04W1', "updated_at" = '2016-02-13 21:21:06.446677' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_34996820__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 251ms (Views: 32.7ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-02-13 22:21:23 +0100
+  Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "isbn13"=>"978548754"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:21:23.719066', "perishable_token" = 'f5qrNcOcIjyP8Xj4tpQo', "updated_at" = '2016-02-13 21:21:23.719395' WHERE "users"."id" = 1
+  [1m[36mTitle Load (0.2ms)[0m  [1mSELECT "titles".* FROM "titles" WHERE "titles"."isbn13" = '978548754' LIMIT 1[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 744ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:21:24 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:21:24.691080', "perishable_token" = '8JN5d8qyVSEPVm1uON', "updated_at" = '2016-02-13 21:21:24.691514' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216218369740__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (29.9ms)
+Completed 200 OK in 272ms (Views: 32.4ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-02-13 22:22:10 +0100
+  Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "isbn13"=>"9788496453746"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.7ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:22:10.953195', "perishable_token" = 'XGNhyzOsWkxMcZyOcTe', "updated_at" = '2016-02-13 21:22:10.953550' WHERE "users"."id" = 1
+  [1m[36mTitle Load (0.1ms)[0m  [1mSELECT "titles".* FROM "titles" WHERE "titles"."isbn13" = '9788496453746' LIMIT 1[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 755ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:22:11 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:22:11.779800', "perishable_token" = '6KhbNZ5qlG5wagySqn2', "updated_at" = '2016-02-13 21:22:11.780140' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216217965900__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 278ms (Views: 33.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/lent" for 127.0.0.1 at 2016-02-13 22:22:20 +0100
+  Processing by UsersController#loans as HTML
+  [1m[35mUser Load (9.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:22:20.617432', "perishable_token" = 'UjJGXXvN43jhSiCyfYnc', "updated_at" = '2016-02-13 21:22:20.617792' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+Rendered users/loans.html.haml within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 247ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__954627506455699529_70216214472320__4034055826981623591'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  [1m[35mLoan Load (0.4ms)[0m  SELECT "loans".* FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL)) ORDER BY created_at DESC
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-02-13 22:26:18 +0100
+  Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "isbn13"=>"9782894502556"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-13 21:26:19.038522', "perishable_token" = 's1GMqYNZ7EO49cDcC3d', "updated_at" = '2016-02-13 21:26:19.038902' WHERE "users"."id" = 1[0m
+  [1m[35mTitle Load (0.1ms)[0m  SELECT "titles".* FROM "titles" WHERE "titles"."isbn13" = '9782894502556' LIMIT 1
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."name" = 'Christine L''Heureux' LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "authors" ("name", "created_at", "updated_at") VALUES ('Christine L''Heureux', '2016-02-13 21:26:19.645339', '2016-02-13 21:26:19.645339')
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects" WHERE "subjects"."name" = 'Juvenile Fiction' LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "subjects" ("name", "created_at", "updated_at") VALUES ('Juvenile Fiction', '2016-02-13 21:26:19.844917', '2016-02-13 21:26:19.844917')
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "titles" ("isbn13", "title", "subtitle", "description", "image_url", "created_at", "updated_at") VALUES ('9782894502556', 'Caillou Play with Me', NULL, 'Caillou wants to play with his father, but Daddy has to go to work, so he must wait until the weekend to be able to play with him.', 'http://books.google.es/books/content?id=FlbzJL7PjIYC&printsec=frontcover&img=1&zoom=5&source=gbs_api', '2016-02-13 21:26:19.963394', '2016-02-13 21:26:19.963394')[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 989ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-13 22:26:19 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-13 21:26:20.073042', "perishable_token" = 'cVtXRCqHDNobl29JP9iU', "updated_at" = '2016-02-13 21:26:20.073410' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__954627506455699529_70216216322240__4034055826981623591 at /home/carlos/APP/casterbridgebookshare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (34.9ms)
+Completed 200 OK in 215ms (Views: 37.3ms | ActiveRecord: 5.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 19:04:54 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-02-28 18:04:55.145818', "perishable_token" = 'lOQeB2o2E77PQRMShRPy', "updated_at" = '2016-02-28 18:04:55.146192' WHERE "users"."id" = 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_38777660_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered pages/home.html.haml within layouts/application (309.6ms)
+Completed 200 OK in 440ms (Views: 311.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-02-28 19:05:11 +0100
+  Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."persistence_token" = 'bb058962d19a73db4d009b1e383d600f1664f405571ca3aed0bc98d5541a8ff38e8d9017b60db08d309d70d4b9fbed73179cebeafd2c33abfd862c0eefc8c79e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (142.6ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-28 18:05:11.840413', "perishable_token" = 'kdndD26heth8k3ayZ0Gf', "updated_at" = '2016-02-28 18:05:11.840807' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 703ms
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-28 19:05:12 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158837934380_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 60ms (Views: 24.1ms | ActiveRecord: 143.6ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:05:26 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@carlos.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@carlos.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158833389380_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 54ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:05:35 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_26571040_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 53ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:05:41 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158834012820_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 59ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:06:43 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158833351500_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 58ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:07:01 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_22776680_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (23.1ms)
+Completed 200 OK in 64ms (Views: 26.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:07:12 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158836822240_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 56ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:07:30 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_38427200_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 55ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:16 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158834499220_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 60ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:20 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158832865240_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 53ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:36 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_27235920_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 69ms (Views: 33.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:43 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158836702240_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 56ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:49 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_38180280_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 53ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:55 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158831859760_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 62ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:08:58 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158832384880_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 56ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:09:00 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158835585280_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 61ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:09:04 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158835170860_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 52ms (Views: 18.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:09:07 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_22766760_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 63ms (Views: 28.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-02-28 19:09:09 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158836149920_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 62ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/password_resets/new" for 127.0.0.1 at 2016-02-28 19:09:23 +0100
+  Processing by PasswordResetsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_new_html_haml__4425479968878161784_70158832038080_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/new.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158832035500_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/new.html.haml within layouts/application (49.5ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2016-02-28 19:09:32 +0100
+  Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "email"=>"carlos@prueba.es", "commit"=>"Reset my password"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'carlos@prueba.es' LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "perishable_token" = 'oUti8SwVQ8MijxdWev6', "updated_at" = '2016-02-28 18:09:32.405860' WHERE "users"."id" = 1[0m
+Rendered member_message/password_reset_instructions.html.haml within layouts/member_message (3.6ms)
+Rendered member_message/password_reset_instructions.text.haml (1.1ms)
+
+Sent mail to carlos@prueba.es (30ms)
+Date: Sun, 28 Feb 2016 19:09:32 +0100
+From: noreply@sutton.gov.uk
+To: carlos@prueba.es
+Message-ID: <56d337dccb79d_1c3d231a02c3818e@carlos-Inspiron-3521.mail>
+Subject: password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56d337dcc4c9a_1c3d231a02c3783d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_56d337dcc4c9a_1c3d231a02c3783d
+Date: Sun, 28 Feb 2016 19:09:32 +0100
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d337dcca767_1c3d231a02c38054@carlos-Inspiron-3521.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>Resetting your password</h2>
+    <p>To reset your password, please click this link:</p>
+    <a href="http://0.0.0.0:3000/password_resets/oUti8SwVQ8MijxdWev6/edit">http://0.0.0.0:3000/password_resets/oUti8SwVQ8MijxdWev6/edit</a>
+    <p>If you didn't ask us to reset your password just ignore this email.</p>
+  </body>
+</html>
+
+
+----==_mimepart_56d337dcc4c9a_1c3d231a02c3783d
+Date: Sun, 28 Feb 2016 19:09:32 +0100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d337dcc8790_1c3d231a02c37910@carlos-Inspiron-3521.mail>
+
+Resetting your password
+To reset your password, please click the link below or copy and paste it into your web browser:
+http://0.0.0.0:3000/password_resets/oUti8SwVQ8MijxdWev6/edit
+If you didn't ask us to reset your password just ignore this email.
+
+
+----==_mimepart_56d337dcc4c9a_1c3d231a02c3783d--
+Completed 500 Internal Server Error in 502ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "0.0.0.0" port 1025):
+  app/models/user.rb:55:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:12:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.2ms)
+
+
+Started GET "/password_resets/oUti8SwVQ8MijxdWev6/edit" for 127.0.0.1 at 2016-02-28 19:09:59 +0100
+  Processing by PasswordResetsController#edit as HTML
+  Parameters: {"id"=>"oUti8SwVQ8MijxdWev6"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE (perishable_token = 'oUti8SwVQ8MijxdWev6' and updated_at > '2016-02-28 17:59:59.208501') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_edit_html_haml___2688213642619259628_70158834707680_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/edit.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158834704840_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/edit.html.haml within layouts/application (48.5ms)
+Completed 200 OK in 113ms (Views: 52.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/password_resets/oUti8SwVQ8MijxdWev6" for 127.0.0.1 at 2016-02-28 19:10:11 +0100
+  Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PGc8wBSyv81NVGQ8eVX/SUP01ffYm8s+vL7Qn0EyIu8=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password and login", "id"=>"oUti8SwVQ8MijxdWev6"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (perishable_token = 'oUti8SwVQ8MijxdWev6' and updated_at > '2016-02-28 18:00:11.996893') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."persistence_token" = '871364715c326b97ea1418b3d71d0856bf7ef15ae1dd62ae796c44f88845dde115de2a4f489da92fec18607af560600ed90736076371687efc0279a16d7fbb15') AND ("users".id <> 1) LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "password_salt" = 'HfQO1fnt9P64KiBISnI', "crypted_password" = 'efbb07a914cdc7cebf4c1c5c9d7916e120e3ee46fa9b2c27280add0fdeb77a864c01c661b4f0c9027ff06556a26077014fd4ed91d52220802faae367f07c4679', "persistence_token" = '871364715c326b97ea1418b3d71d0856bf7ef15ae1dd62ae796c44f88845dde115de2a4f489da92fec18607af560600ed90736076371687efc0279a16d7fbb15', "perishable_token" = 'aybBk5AwytgPpKcDuwSj', "login_count" = 2, "last_login_at" = '2016-02-13 21:15:05.678630', "current_login_at" = '2016-02-28 18:10:12.062848', "last_login_ip" = '127.0.0.1', "last_request_at" = '2016-02-28 18:10:12.063304', "updated_at" = '2016-02-28 18:10:12.063782' WHERE "users"."id" = 1[0m
+Redirected to http://0.0.0.0:3000/books
+Completed 302 Found in 230ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-02-28 19:10:12 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-28 18:10:12.322796', "perishable_token" = 'mukvKyT88Gz08EpYAvc9', "updated_at" = '2016-02-28 18:10:12.323140' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___747122108303411864_70158837767740_62267126987801449 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 195ms (Views: 35.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/lent" for 127.0.0.1 at 2016-02-28 19:10:57 +0100
+  Processing by UsersController#loans as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-02-28 18:10:57.380763', "perishable_token" = 'yFR1pHZJFFiJiWisqZNj', "updated_at" = '2016-02-28 18:10:57.381155' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+Rendered users/loans.html.haml within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 261ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___747122108303411864_36804120_62267126987801449'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+  [1m[35mLoan Load (0.5ms)[0m  SELECT "loans".* FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL)) ORDER BY created_at DESC
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.4ms)
