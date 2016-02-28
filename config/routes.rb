@@ -1,6 +1,6 @@
 NestaBookshare::Application.routes.draw do
 
-  themes_for_rails
+  #themes_for_rails
   
   resources :authors
   resources :bans

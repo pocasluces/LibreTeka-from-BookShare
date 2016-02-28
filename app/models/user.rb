@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
             
   validates_presence_of :first_name, :last_name, :address1, :city, :postcode
   
-  after_create :send_registration_confirmation, :promote_first_user
+  after_create  :promote_first_user
   
 #   attr_protected :status, :banned
 

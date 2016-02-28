@@ -4,13 +4,15 @@ gem 'rails'
 gem 'authlogic'
 gem 'rails3-generators'
 gem 'dynamic_form'
-gem 'nokogiri'
+gem 'nokogiri' #, '~> 1.6', '>= 1.6.7.2'
+##gem 'nokogiri'
 gem 'cuecat'
 gem 'isbn'
+##gem 'themes_for_rails', '~> 0.5.1'
 gem 'themes_for_rails'
 gem 'httpclient'
 gem 'json_pure'
-gem 'pg'
+
 gem 'texticle', '< 2.0'#, :require => 'texticle/rails'
 
 # Bundle edge Rails instead:
@@ -36,4 +38,8 @@ gem 'haml'
 group :development, :test do
   gem 'sqlite3'
 #   gem 'webrat'
+end
+
+group :production, :staging do
+  gem 'pg'
 end
