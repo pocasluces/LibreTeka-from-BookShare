@@ -2440,3 +2440,676 @@ Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middlewa
   [1m[35mLoan Load (0.5ms)[0m  SELECT "loans".* FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL)) ORDER BY created_at DESC
 Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.6ms)
 Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 21:07:00 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__3281937456670100716_17314100__999129561277461181 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (166.2ms)
+Completed 200 OK in 207ms (Views: 170.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/accessibility" for 127.0.0.1 at 2016-02-28 21:07:09 +0100
+  Processing by PagesController#accessibility as HTML
+Rendered pages/accessibility.html.haml within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml__3281937456670100716_37686520__999129561277461181'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-03 20:56:56 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (1.1ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_31566040__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (161.1ms)
+Completed 200 OK in 255ms (Views: 188.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=d&commit=Find+Books" for 127.0.0.1 at 2016-03-03 20:57:08 +0100
+  Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"d", "commit"=>"Find Books"}
+  [1m[35mTitle Load (20.4ms)[0m  
+ SELECT *
+ FROM titles
+ WHERE title LIKE '%d%' OR subtitle LIKE '%d%'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "searches" ("query", "created_at", "updated_at", "results") VALUES ('d', '2016-03-03 19:57:09.120627', '2016-03-03 19:57:09.120627', 0)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252448052860__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered search/index.html.haml within layouts/application (45.7ms)
+Completed 200 OK in 502ms (Views: 58.4ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/accessibility" for 127.0.0.1 at 2016-03-03 20:58:48 +0100
+  Processing by PagesController#accessibility as HTML
+Rendered pages/accessibility.html.haml within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___4400577637501270439_70252451813560__2367132394077276038'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-03-03 20:58:52 +0100
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.haml within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3:   /
+    4:     NESTA Bookshare
+    5:   %head
+    6:     %title= @page_title.nil? ? CONFIG[:sitename] : @page_title + " - " + CONFIG[:sitename]
+    7: 
+    8:     = csrf_meta_tag
+    9:     = yield :head
+  app/views/layouts/application.html.haml:6:in `+'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___4400577637501270439_70252454645000__2367132394077276038'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-03 20:59:15 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252450213760__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (56.4ms)
+Completed 200 OK in 68ms (Views: 60.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-03 20:59:19 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252448880100__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 65ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 20:59:25 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@carlos.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@carlos.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252448387100__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 64ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 20:59:39 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252447049020__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 78ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 21:00:06 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252451292900__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 68ms (Views: 25.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 21:00:24 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252453930940__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 60ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 21:00:33 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_31667420__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 70ms (Views: 23.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 21:00:38 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252451896580__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 63ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/password_resets/new" for 127.0.0.1 at 2016-03-03 21:00:41 +0100
+  Processing by PasswordResetsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_new_html_haml___2570913651195246103_70252453838900__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/new.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252453820240__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/new.html.haml within layouts/application (44.7ms)
+Completed 200 OK in 75ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2016-03-03 21:00:50 +0100
+  Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "email"=>"carlos@prueba.es", "commit"=>"Reset my password"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'carlos@prueba.es' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "perishable_token" = 'GGhwXZ32fjzSSaOdedLM', "updated_at" = '2016-03-03 20:00:50.204671' WHERE "users"."id" = 1[0m
+Rendered member_message/password_reset_instructions.html.haml within layouts/member_message (4.2ms)
+Rendered member_message/password_reset_instructions.text.haml (1.3ms)
+
+Sent mail to carlos@prueba.es (24ms)
+Date: Thu, 03 Mar 2016 21:00:50 +0100
+From: noreply@sutton.gov.uk
+To: carlos@prueba.es
+Message-ID: <56d897f27753c_18c13fe4e8006ac4587b1@carlos-Inspiron-3521.mail>
+Subject: password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56d897f2725d9_18c13fe4e8006ac4584d7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_56d897f2725d9_18c13fe4e8006ac4584d7
+Date: Thu, 03 Mar 2016 21:00:50 +0100
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d897f27641b_18c13fe4e8006ac458659@carlos-Inspiron-3521.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>Resetting your password</h2>
+    <p>To reset your password, please click this link:</p>
+    <a href="http://0.0.0.0:3000/password_resets/GGhwXZ32fjzSSaOdedLM/edit">http://0.0.0.0:3000/password_resets/GGhwXZ32fjzSSaOdedLM/edit</a>
+    <p>If you didn't ask us to reset your password just ignore this email.</p>
+  </body>
+</html>
+
+
+----==_mimepart_56d897f2725d9_18c13fe4e8006ac4584d7
+Date: Thu, 03 Mar 2016 21:00:50 +0100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d897f274fc0_18c13fe4e8006ac4585c1@carlos-Inspiron-3521.mail>
+
+Resetting your password
+To reset your password, please click the link below or copy and paste it into your web browser:
+http://0.0.0.0:3000/password_resets/GGhwXZ32fjzSSaOdedLM/edit
+If you didn't ask us to reset your password just ignore this email.
+
+
+----==_mimepart_56d897f2725d9_18c13fe4e8006ac4584d7--
+Completed 500 Internal Server Error in 416ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "0.0.0.0" port 1025):
+  app/models/user.rb:55:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:12:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/password_resets/GGhwXZ32fjzSSaOdedLM/edit" for 127.0.0.1 at 2016-03-03 21:01:17 +0100
+  Processing by PasswordResetsController#edit as HTML
+  Parameters: {"id"=>"GGhwXZ32fjzSSaOdedLM"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (perishable_token = 'GGhwXZ32fjzSSaOdedLM' and updated_at > '2016-03-03 19:51:17.524746') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_edit_html_haml___836743778695112192_70252447298360__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/edit.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252447295940__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/edit.html.haml within layouts/application (40.7ms)
+Completed 200 OK in 139ms (Views: 69.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/password_resets/GGhwXZ32fjzSSaOdedLM" for 127.0.0.1 at 2016-03-03 21:01:26 +0100
+  Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udplyCdfoVNjh4386eAQ/7oINx40xkxj286Yz0+JoOk=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password and login", "id"=>"GGhwXZ32fjzSSaOdedLM"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (perishable_token = 'GGhwXZ32fjzSSaOdedLM' and updated_at > '2016-03-03 19:51:26.800182') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE ("users"."persistence_token" = '9f466f7d28663895e083ae26bd4d670879e26cbb734a607624b2b0123e3c5d9e9f48fe58fb3732f182d4f727c14c1e5fa6c31ac0a1d5843c3dfa18c3805ab051') AND ("users".id <> 1) LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "password_salt" = 'a9OoFPjlQ8ezYiHMyTL', "crypted_password" = '8e530db8d172925edbdbe7fb7d5601587047c080be147cfc87db5ec3f9dabdd2827a73a88bc940a9db1034b86ae41ebf1d9fb3ab846d9eb05058cd66e416791a', "persistence_token" = '9f466f7d28663895e083ae26bd4d670879e26cbb734a607624b2b0123e3c5d9e9f48fe58fb3732f182d4f727c14c1e5fa6c31ac0a1d5843c3dfa18c3805ab051', "perishable_token" = 'AsgeqCJqoe7pJ9gBlyHD', "login_count" = 3, "last_login_at" = '2016-02-28 18:10:12.062848', "current_login_at" = '2016-03-03 20:01:26.893033', "last_request_at" = '2016-03-03 20:01:26.893532', "updated_at" = '2016-03-03 20:01:26.894139' WHERE "users"."id" = 1[0m
+Redirected to http://0.0.0.0:3000/books
+Completed 302 Found in 244ms
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-03 21:01:27 +0100
+  Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-03 20:01:27.099819', "perishable_token" = 'ipm9DhRI2UIRsk6DRPc1', "updated_at" = '2016-03-03 20:01:27.100195' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_31321240__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (34.4ms)
+Completed 200 OK in 221ms (Views: 52.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/password_resets/" for 127.0.0.1 at 2016-03-03 21:03:38 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PasswordResetsController):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/password_resets/edit" for 127.0.0.1 at 2016-03-03 21:03:41 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for PasswordResetsController):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/password_resets/new" for 127.0.0.1 at 2016-03-03 21:03:55 +0100
+  Processing by PasswordResetsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_new_html_haml___2570913651195246103_70252453017580__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/new.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252453015300__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/new.html.haml within layouts/application (49.6ms)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/GGhwXZ32fjzSSaOdedLM/edit%3C" for 127.0.0.1 at 2016-03-03 21:04:33 +0100
+
+AbstractController::ActionNotFound (The action 'GGhwXZ32fjzSSaOdedLM' could not be found for PasswordResetsController):
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.3ms)
+
+
+Started GET "/password_resets/GGhwXZ32fjzSSaOdedLM/edit" for 127.0.0.1 at 2016-03-03 21:04:48 +0100
+  Processing by PasswordResetsController#edit as HTML
+  Parameters: {"id"=>"GGhwXZ32fjzSSaOdedLM"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE (perishable_token = 'GGhwXZ32fjzSSaOdedLM' and updated_at > '2016-03-03 19:54:48.143254') LIMIT 1
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 59ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-03 21:04:48 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-03 20:04:48.273870', "perishable_token" = 'WeAMKxlNJqLU2fV0gkm', "updated_at" = '2016-03-03 20:04:48.274313' WHERE "users"."id" = 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252454092320__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered pages/home.html.haml within layouts/application (253.7ms)
+Completed 200 OK in 265ms (Views: 255.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-03 21:04:53 +0100
+  Processing by UserSessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-03 20:04:53.848456', "perishable_token" = 'TBrwNwecTW5ZjY36tYcn', "updated_at" = '2016-03-03 20:04:53.848799' WHERE "users"."id" = 1[0m
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 197ms
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-03 21:04:54 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252447254200__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 55ms (Views: 20.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-03 21:05:05 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udplyCdfoVNjh4386eAQ/7oINx40xkxj286Yz0+JoOk=", "user_session"=>{"login"=>"carlos@prueba.es", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos@prueba.es') LIMIT 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252451956040__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered user_sessions/new.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 81ms (Views: 20.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/password_resets/new" for 127.0.0.1 at 2016-03-03 21:05:37 +0100
+  Processing by PasswordResetsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_password_resets_new_html_haml___2570913651195246103_70252453117580__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/password_resets/new.html.haml:3)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___4400577637501270439_70252453115080__2367132394077276038 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered password_resets/new.html.haml within layouts/application (60.0ms)
+Completed 200 OK in 64ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2016-03-03 21:05:44 +0100
+  Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udplyCdfoVNjh4386eAQ/7oINx40xkxj286Yz0+JoOk=", "email"=>"carlos@prueba.es", "commit"=>"Reset my password"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'carlos@prueba.es' LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "perishable_token" = 'xFrnrbDGXJO3UF3dWkd', "updated_at" = '2016-03-03 20:05:44.575499' WHERE "users"."id" = 1
+Rendered member_message/password_reset_instructions.html.haml within layouts/member_message (4.4ms)
+Rendered member_message/password_reset_instructions.text.haml (1.7ms)
+
+Sent mail to carlos@prueba.es (13ms)
+Date: Thu, 03 Mar 2016 21:05:44 +0100
+From: noreply@sutton.gov.uk
+To: carlos@prueba.es
+Message-ID: <56d89918cfd51_18c13fe4ec9d7d24591f7@carlos-Inspiron-3521.mail>
+Subject: password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56d89918cd5ab_18c13fe4ec9d7d245885b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_56d89918cd5ab_18c13fe4ec9d7d245885b
+Date: Thu, 03 Mar 2016 21:05:44 +0100
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d89918cf776_18c13fe4ec9d7d2459013@carlos-Inspiron-3521.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>Resetting your password</h2>
+    <p>To reset your password, please click this link:</p>
+    <a href="http://0.0.0.0:3000/password_resets/xFrnrbDGXJO3UF3dWkd/edit">http://0.0.0.0:3000/password_resets/xFrnrbDGXJO3UF3dWkd/edit</a>
+    <p>If you didn't ask us to reset your password just ignore this email.</p>
+  </body>
+</html>
+
+
+----==_mimepart_56d89918cd5ab_18c13fe4ec9d7d245885b
+Date: Thu, 03 Mar 2016 21:05:44 +0100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d89918ced40_18c13fe4ec9d7d24589c3@carlos-Inspiron-3521.mail>
+
+Resetting your password
+To reset your password, please click the link below or copy and paste it into your web browser:
+http://0.0.0.0:3000/password_resets/xFrnrbDGXJO3UF3dWkd/edit
+If you didn't ask us to reset your password just ignore this email.
+
+
+----==_mimepart_56d89918cd5ab_18c13fe4ec9d7d245885b--
+Completed 500 Internal Server Error in 362ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "0.0.0.0" port 1025):
+  app/models/user.rb:55:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:12:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2016-03-03 22:11:27 +0100
+  Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "email"=>"carlos@prueba.es", "commit"=>"Reset my password"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'carlos@prueba.es' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "perishable_token" = '9PVEODUDS7JIHveOiB9', "updated_at" = '2016-03-03 21:11:27.171766' WHERE "users"."id" = 1[0m
+Rendered member_message/password_reset_instructions.html.haml within layouts/member_message (5.2ms)
+Rendered member_message/password_reset_instructions.text.haml (1.5ms)
+
+Sent mail to carlos@prueba.es (21ms)
+Date: Thu, 03 Mar 2016 22:11:27 +0100
+From: noreply@sutton.gov.uk
+To: carlos@prueba.es
+Message-ID: <56d8a87f6227d_1eb724c486445152@carlos-Inspiron-3521.mail>
+Subject: password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56d8a87f5d6e9_1eb724c4864448e3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_56d8a87f5d6e9_1eb724c4864448e3
+Date: Thu, 03 Mar 2016 22:11:27 +0100
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d8a87f61290_1eb724c48644504d@carlos-Inspiron-3521.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>Resetting your password</h2>
+    <p>To reset your password, please click this link:</p>
+    <a href="http://0.0.0.0:3000/password_resets/9PVEODUDS7JIHveOiB9/edit">http://0.0.0.0:3000/password_resets/9PVEODUDS7JIHveOiB9/edit</a>
+    <p>If you didn't ask us to reset your password just ignore this email.</p>
+  </body>
+</html>
+
+
+----==_mimepart_56d8a87f5d6e9_1eb724c4864448e3
+Date: Thu, 03 Mar 2016 22:11:27 +0100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d8a87f601a7_1eb724c486444934@carlos-Inspiron-3521.mail>
+
+Resetting your password
+To reset your password, please click the link below or copy and paste it into your web browser:
+http://0.0.0.0:3000/password_resets/9PVEODUDS7JIHveOiB9/edit
+If you didn't ask us to reset your password just ignore this email.
+
+
+----==_mimepart_56d8a87f5d6e9_1eb724c4864448e3--
+Completed 500 Internal Server Error in 350ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "0.0.0.0" port 1025):
+  app/models/user.rb:55:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:12:in `create'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2016-03-03 22:15:48 +0100
+  Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/1GUG0y4MbLDZXfyd0JSecwNQ1kxQTorOS6QC7ieI0=", "email"=>"carlos@prueba.es", "commit"=>"Reset my password"}
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'carlos@prueba.es' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "perishable_token" = 'IgMx7i8biOJTNDrJJDMC', "updated_at" = '2016-03-03 21:15:48.656900' WHERE "users"."id" = 1[0m
+Rendered member_message/password_reset_instructions.html.haml within layouts/member_message (3.7ms)
+Rendered member_message/password_reset_instructions.text.haml (0.9ms)
+
+Sent mail to carlos@prueba.es (23ms)
+Date: Thu, 03 Mar 2016 22:15:48 +0100
+From: noreply@sutton.gov.uk
+To: carlos@prueba.es
+Message-ID: <56d8a984dafc5_1ef519615588428f@carlos-Inspiron-3521.mail>
+Subject: password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56d8a984d6628_1ef51961558839f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_56d8a984d6628_1ef51961558839f
+Date: Thu, 03 Mar 2016 22:15:48 +0100
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d8a984d9f51_1ef519615588418@carlos-Inspiron-3521.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*<![CDATA[*/
+        body
+        {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1
+        {  
+          color: #d12349;
+          font-size: 250%;
+        }
+        
+        img
+        {
+          border: 0;
+        }
+      /*]]>*/
+    </style>
+  </head>
+  <body>
+    <h1>
+      
+    </h1>
+    <h2>Resetting your password</h2>
+    <p>To reset your password, please click this link:</p>
+    <a href="http://0.0.0.0:3000/password_resets/IgMx7i8biOJTNDrJJDMC/edit">http://0.0.0.0:3000/password_resets/IgMx7i8biOJTNDrJJDMC/edit</a>
+    <p>If you didn't ask us to reset your password just ignore this email.</p>
+  </body>
+</html>
+
+
+----==_mimepart_56d8a984d6628_1ef51961558839f
+Date: Thu, 03 Mar 2016 22:15:48 +0100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <56d8a984d8603_1ef5196155884011@carlos-Inspiron-3521.mail>
+
+Resetting your password
+To reset your password, please click the link below or copy and paste it into your web browser:
+http://0.0.0.0:3000/password_resets/IgMx7i8biOJTNDrJJDMC/edit
+If you didn't ask us to reset your password just ignore this email.
+
+
+----==_mimepart_56d8a984d6628_1ef51961558839f--
+Redirected to http://localhost:3000/
+Completed 302 Found in 340ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-03 22:15:48 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___1856602885369770322_70157489433520__1765910603315975893 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:22)
+Rendered pages/home.html.haml within layouts/application (46.8ms)
+Completed 200 OK in 59ms (Views: 50.2ms | ActiveRecord: 1.4ms)
