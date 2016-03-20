@@ -9,48 +9,41 @@
     = yield :head
 
   %body
-  
-    .access
-      %a{ :href => '#main', :accesskey => 's' }<
-        Skip to Content
-      &nbsp;&nbsp;
-      =link_to_unless_current "Accessibility", :accessibility, :accesskey => '0'
-      &nbsp;&nbsp;
-      =link_to_unless_current "Contact Us", :contact, :accesskey => '9'
-        
+    <IMG SRC="/images/logo.png" ALT="La primera biblioteca física p2p" WIDTH=300 HEIGHT=100% >
+
     #search
       - form_tag(search_path, :method => :get) do
         = text_field_tag :q, '', { :size => 25, :class => 'bigfield' }
-        = submit_tag "Find Books", { :class => 'bigfield' }
+        = submit_tag "Busca tus libros", { :class => 'bigfield' }
         
     %h1.logo
       = CONFIG[:sitename]
       
     #userbar
-      = link_to_unless_current "Home", :root, :accesskey => '1'
+      = link_to_unless_current "Inicio", :root, :accesskey => '1'
       &nbsp;&nbsp;
       - if current_user
         = image_tag current_user.gravatar_image_url(25), :alt => current_user.login
-        Logged in as
+        Conectado como
         %strong
           = link_to current_user.login, :controller => :members, :action => :show, :login => current_user.login
         &nbsp;&nbsp;
-        = link_to_unless_current "My Books (#{current_user.books.count.to_s})", books_path, :accesskey => '2'
+        = link_to_unless_current "Mis libros (#{current_user.books.count.to_s})", books_path, :accesskey => '2'
         &nbsp;&nbsp;
-        = link_to_unless_current "Lent (#{current_user.active_loans.count.to_s})", :lent, :accesskey => '3'
+        = link_to_unless_current "Has prestado (#{current_user.active_loans.count.to_s})", :lent, :accesskey => '3'
         &nbsp;&nbsp;
-        = link_to_unless_current "Borrowed (#{current_user.active_borrowings.count.to_s})", :borrowings, :accesskey => '4'
+        = link_to_unless_current "Tienes prestados (#{current_user.active_borrowings.count.to_s})", :borrowings, :accesskey => '4'
         &nbsp;&nbsp;
-        = link_to_unless_current "Watch List (#{current_user.watched_books.count.to_s})", :watchlist, :accesskey => '5'
+        = link_to_unless_current "Lista de interés (#{current_user.watched_books.count.to_s})", :watchlist, :accesskey => '5'
         &nbsp;&nbsp;
         - if is_admin?
-          = link_to_unless_current "Administration", :controller => :admin
+          = link_to_unless_current "Configuración", :controller => :admin
         &nbsp;&nbsp;
         = link_to_unless_current "Log Out", :logout, :method => :delete, :confirm => "Are you sure you want to logout?"
       - else
-        = link_to_unless_current "Register", :register
+        = link_to_unless_current "Regístrate", :register
         &nbsp;&nbsp;
-        = link_to_unless_current "Log In", :login
+        = link_to_unless_current "Inicio de sesión", :login
     
     #main
       
@@ -62,28 +55,11 @@
       = yield
     
     #footer
-      %a{ :href => "http://www.nesta.org.uk/" }<
-        Powered by NESTA Bookshare 
+      %a{ :href => "http://http://www.stsi-madrid.org/" }<
+        Desarrollado por el STSI. 
       &nbsp;&nbsp;
-      %a{ :href => "http://www.sutton.gov.uk/" }<
-        Designed by the London Borough of Sutton
-      &nbsp;&nbsp;
-      %a{ :href => 'https://github.com/adrianshort/nesta-bookshare' }<
-        Open source code
-      &nbsp;&nbsp;
-      - unless CONFIG[:twitter].nil?
-        &nbsp;&nbsp;
+      %a{ :href => 'https://github.com/pocasluces/LibreTeka-from-BookShare' }<
+        Código abierto y libre.
       &nbsp;&nbsp;
 
 
-    - unless CONFIG[:google_analytics].nil?
-      :javascript
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '#{CONFIG[:google_analytics]}']);
-        _gaq.push(['_trackPageview']);
-      
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();

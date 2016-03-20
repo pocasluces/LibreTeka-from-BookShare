@@ -3,15 +3,17 @@
 
 #puffbox
   %p{ :style => 'font-size: 200%' }
-    Lend and borrow books with your neighbours in Anytown
+    Presta y toma prestados libros en tu vecindario o en cualquier ciudad.
 
-  - unless current_user
-    %p{ :style => 'float: right' }
-      = link_to "Sign up now", :register, :class => "button"
+  
     
   %p
-    = CONFIG[:sitename] 
-    helps you to lend and borrow books. It's free, easy to use and open to everyone who lives or works in Anytown.
+    Ayudanos a completar la primera biblioteca entre iguales.
+    = link_to_unless_current "Regístrate", :register
+
+
+
+
 
 .clear
   

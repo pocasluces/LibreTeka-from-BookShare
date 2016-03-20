@@ -45,7 +45,7 @@
         currently lent to others
 
 %h2
-  = link_to (theme_image_tag 'rss-mono.png'),  :controller => :members, :action => :show, :login => @user.login, :format => :atom
+  
   Books
 
 - if @user.books.count > 0
@@ -61,7 +61,7 @@
             = book.title.subtitle
           %br
           %br
-            = link_to book.title.authors.first.name, author_path (book.title.authors.first)
+            = link_to book.title.authors.first.name, author_path(book.title.authors.first)
 - else
   %p
     = @user.login
