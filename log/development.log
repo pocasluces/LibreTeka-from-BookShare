@@ -8536,3 +8536,508 @@ DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called
   [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
 Rendered pages/home.html.haml within layouts/application (284.8ms)
 Completed 200 OK in 303ms (Views: 288.3ms | ActiveRecord: 2.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 19:10:00 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 18:10:01.027068', "perishable_token" = 'QcXqFVLmJYIQJMAm19Ul', "updated_at" = '2016-03-20 18:10:01.027611' WHERE "users"."id" = 1
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___171727448270895809_37207600__839307126485693628 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered books/index.html.haml within layouts/application (42.7ms)
+Completed 200 OK in 334ms (Views: 46.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 19:10:03 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.9ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___171727448270895809_70038035625260__839307126485693628 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 18:10:03.692032', "perishable_token" = 'RqQAlcVTIMwxZwl7dQpm', "updated_at" = '2016-03-20 18:10:03.692583' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered pages/home.html.haml within layouts/application (264.5ms)
+Completed 200 OK in 280ms (Views: 268.0ms | ActiveRecord: 2.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-20 23:47:02 +0100
+  Processing by UserSessionsController#destroy as HTML
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 22:47:02.769084', "perishable_token" = 'xrdmUccDlMoAWzUevjf2', "updated_at" = '2016-03-20 22:47:02.769470' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 303ms
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:47:02 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262179235060__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 49ms (Views: 16.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:47:11 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262183109600__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 49ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:54:08 +0100
+  Processing by UserSessionsController#new as HTML
+ERROR: compiling _app_views_user_sessions_new_html_haml___2296553377168790250_70262184398100__2488788197426892901 RAISED /home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...true_false(( f.label :Nombre de Usuario.
+...                               ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:7: syntax error, unexpected ')', expecting '('
+));}\n  <br>\n  #{
+ ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:7: syntax error, unexpected $undefined
+));}\n  <br>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:9: syntax error, unexpected '}', expecting ')'
+));}\n</div>\n<div>\n  #{
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: unknown regexp options - dv
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: syntax error, unexpected $undefined
+));}\n</div>\n<div>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: syntax error, unexpected $undefined
+));}\n</div>\n<div>\n  #{
+                    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:15: syntax error, unexpected '}', expecting ')'
+));}\n  #{_hamlout.format_script_...
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:16: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n</div>\n<div>\n  #{
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: unknown regexp options - dv
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: syntax error, unexpected $undefined
+));}\n</div>\n<p>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: syntax error, unexpected $undefined
+));}\n</div>\n<p>\n  #{
+                  ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n</p>\n", -1, false);end
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: unterminated regexp meets end of file
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Function body:           def _app_views_user_sessions_new_html_haml___2296553377168790250_70262184398100__2488788197426892901(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "user_sessions/new";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<h1>Log In</h1>\n", 0, false);
+
+haml_temp =  form_for @user_session, :as => :user_session, :url => {:action => "create"} do |f|
+_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( f.error_messages
+));}\n<div>\n  #{_hamlout.adjust_tabs(1); 
+_hamlout.format_script_false_false_false_true_false_true_false(( f.label :Nombre de Usuario.
+));}\n  <br>\n  #{
+_hamlout.format_script_false_false_false_true_false_true_false(( f.text_field :login
+));}\n</div>\n<div>\n  #{
+_hamlout.format_script_false_false_false_true_false_true_false(( f.label :password
+));}\n  <br>\n  #{
+_hamlout.format_script_false_false_false_true_false_true_false(( f.password_field :password
+));}\n</div>\n<div>\n  #{
+_hamlout.format_script_false_false_false_true_false_true_false(( f.check_box :remember_me
+));}\n  #{_hamlout.format_script_false_false_false_true_false_true_false(( f.label :remember_me
+));}\n</div>\n<div>\n  #{
+_hamlout.format_script_false_false_false_true_false_true_false(( f.submit "Log In"
+));}\n</div>\n<p>\n  #{
+
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to "Forgotten your password?", :controller => :password_resets, :action => :new
+));}\n</p>\n", -1, false);end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/template.rb:258:in `module_eval'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/template.rb:258:in `compile'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/template.rb:134:in `block in render'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+/var/lib/gems/2.1.0/gems/haml-3.1.2/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/rendering.rb:93:in `render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/rendering.rb:17:in `render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/base.rb:150:in `process_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:446:in `_run__3277607834834206489__process_action__1557663999052415532__callbacks'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/base.rb:119:in `process'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/abstract_controller/rendering.rb:41:in `process'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal.rb:138:in `dispatch'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_controller/metal.rb:178:in `block in action'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/var/lib/gems/2.1.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/var/lib/gems/2.1.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/var/lib/gems/2.1.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/var/lib/gems/2.1.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/var/lib/gems/2.1.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/head.rb:14:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/query_cache.rb:32:in `block in call'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/query_cache.rb:12:in `cache'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/query_cache.rb:31:in `call'
+/var/lib/gems/2.1.0/gems/activerecord-3.0.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/var/lib/gems/2.1.0/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/var/lib/gems/2.1.0/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+/var/lib/gems/2.1.0/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+/var/lib/gems/2.1.0/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+/var/lib/gems/2.1.0/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/2.1.0/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/usr/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/usr/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/usr/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+Rendered user_sessions/new.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...true_false(( f.label :Nombre de Usuario.
+...                               ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:7: syntax error, unexpected ')', expecting '('
+));}\n  <br>\n  #{
+ ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:7: syntax error, unexpected $undefined
+));}\n  <br>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:9: syntax error, unexpected '}', expecting ')'
+));}\n</div>\n<div>\n  #{
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: unknown regexp options - dv
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: syntax error, unexpected $undefined
+));}\n</div>\n<div>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:13: syntax error, unexpected $undefined
+));}\n</div>\n<div>\n  #{
+                    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:15: syntax error, unexpected '}', expecting ')'
+));}\n  #{_hamlout.format_script_...
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:16: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n</div>\n<div>\n  #{
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: unknown regexp options - dv
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: syntax error, unexpected $undefined
+));}\n</div>\n<p>\n  #{
+             ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:18: syntax error, unexpected $undefined
+));}\n</div>\n<p>\n  #{
+                  ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n</p>\n", -1, false);end
+    ^
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: unterminated regexp meets end of file
+/home/carlos/APP/LibreTeka-from-BookShare/app/views/user_sessions/new.html.haml:21: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+    3: = form_for @user_session, :as => :user_session, :url => {:action => "create"} do |f|
+    4:   = f.error_messages
+    5:   %div
+    6:     = f.label :Nombre de Usuario.
+    7:     %br
+    8:     = f.text_field :login
+    9:   %div
+  
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:54:19 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_31936920__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 74ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:54:39 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262180680240__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (12.3ms)
+Completed 200 OK in 51ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:54:52 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262184813680__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 55ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:55:40 +0100
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/new.html.haml within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `Recuerdame' for #<UserSession: no credentials provided>):
+    12:     %br
+    13:     = f.password_field :password
+    14:   %div
+    15:     = f.check_box :Recuerdame
+    16:     = f.label :remember_me
+    17:   %div
+    18:     = f.submit "Log In"
+  app/views/user_sessions/new.html.haml:15:in `block in _app_views_user_sessions_new_html_haml___2296553377168790250_70262177631040__2488788197426892901'
+  app/views/user_sessions/new.html.haml:3:in `_app_views_user_sessions_new_html_haml___2296553377168790250_70262177631040__2488788197426892901'
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 23:55:59 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262183540520__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 83ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=universo&commit=Buscar+Libro" for 127.0.0.1 at 2016-03-20 23:56:16 +0100
+  Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"universo", "commit"=>"Buscar Libro"}
+  [1m[36mTitle Load (0.2ms)[0m  [1m
+ SELECT *
+ FROM titles
+ WHERE title LIKE '%universo%' OR subtitle LIKE '%universo%'[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "searches" ("query", "created_at", "updated_at", "results") VALUES ('universo', '2016-03-20 22:56:16.428089', '2016-03-20 22:56:16.428089', 0)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262184431140__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered search/index.html.haml within layouts/application (45.4ms)
+Completed 200 OK in 304ms (Views: 49.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=universo&commit=Buscar+Libro" for 127.0.0.1 at 2016-03-20 23:57:48 +0100
+  Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"universo", "commit"=>"Buscar Libro"}
+  [1m[36mTitle Load (0.2ms)[0m  [1m
+ SELECT *
+ FROM titles
+ WHERE title LIKE '%universo%' OR subtitle LIKE '%universo%'[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "searches" ("query", "created_at", "updated_at", "results") VALUES ('universo', '2016-03-20 22:57:48.485883', '2016-03-20 22:57:48.485883', 0)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_31367080__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered search/index.html.haml within layouts/application (49.0ms)
+Completed 200 OK in 239ms (Views: 52.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 23:59:16 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262178754940__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (47.7ms)
+Completed 200 OK in 62ms (Views: 51.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-21 00:03:24 +0100
+  Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 23:03:24.897825', "perishable_token" = 'NOONPSA4MiB40LMXUE', "updated_at" = '2016-03-20 23:03:24.898235' WHERE "users"."id" = 1
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 248ms
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:03:25 +0100
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/new.html.haml within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    1: #logout
+    2:   #mascota
+    3:       <IMG SRC="/images/mascota.png" ALT="La primera biblioteca física p2p" WIDTH=300 HEIGHT=100% >
+    4:   #logoutbox
+    5:     %h1 Log In
+    6:     -# http://techoctave.com/c7/posts/37-authlogic-and-rails-3-0-solution
+  app/views/user_sessions/new.html.haml:3
+
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/2.1.0/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:03:48 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262179956540__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 76ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:04:15 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262177844140__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 64ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-03-21 00:07:27 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (17.0ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___1871500813464090208_70262181713720__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262181710580__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered users/new.html.haml within layouts/application (47.7ms)
+Completed 200 OK in 87ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:07:31 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262181061680__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 60ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-21 00:07:35 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262184102400__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (64.9ms)
+Completed 200 OK in 76ms (Views: 69.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-03-21 00:07:37 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (16.5ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___1871500813464090208_70262180836580__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262180833320__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered users/new.html.haml within layouts/application (48.1ms)
+Completed 200 OK in 96ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-21 00:25:34 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"okHv9WenMaekdaR5m4HzrX60mSJMb9TLVInJzrSXV68=", "user_session"=>{"login"=>"carlos", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos') LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "login_count" = 7, "last_login_at" = '2016-03-20 17:16:00.291616', "current_login_at" = '2016-03-20 23:25:34.362348', "last_request_at" = '2016-03-20 23:25:34.362734', "perishable_token" = 'Kysl24WyLWJzyycI1cGx', "updated_at" = '2016-03-20 23:25:34.363359' WHERE "users"."id" = 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 350ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-21 00:25:34 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.6ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262183541420__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 23:25:34.879564', "perishable_token" = 'pcaULoXaGqXtn3fDw8zz', "updated_at" = '2016-03-20 23:25:34.879928' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered pages/home.html.haml within layouts/application (224.8ms)
+Completed 200 OK in 259ms (Views: 226.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-21 00:25:58 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 23:25:59.041541', "perishable_token" = 'VspOMGDblKvaGFrU6fDH', "updated_at" = '2016-03-20 23:25:59.041990' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262177611860__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered members/show.html.haml within layouts/application (245.1ms)
+Completed 200 OK in 286ms (Views: 247.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-21 00:30:22 +0100
+  Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 23:30:22.654941', "perishable_token" = 'yQS2JygyWp6YXiFKhNP8', "updated_at" = '2016-03-20 23:30:22.655284' WHERE "users"."id" = 1
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 243ms
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:30:22 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262177615280__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 49ms (Views: 18.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:30:25 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262108236080__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 58ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-21 00:30:31 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__2782492208998615935_70262181963620__2488788197426892901 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 52ms (Views: 17.3ms | ActiveRecord: 0.0ms)
