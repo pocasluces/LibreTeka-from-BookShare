@@ -7774,3 +7774,765 @@ Started GET "/" for 127.0.0.1 at 2016-03-20 18:09:28 +0100
 DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml__3494423034140109002_70151012152580_3316353162532003533 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
 Rendered pages/home.html.haml within layouts/application (48.9ms)
 Completed 200 OK in 61ms (Views: 52.0ms | ActiveRecord: 0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/carlos/APP/LibreTeka-from-BookShare/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:12:12 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.9ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_9176040_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (90.3ms)
+Completed 200 OK in 142ms (Views: 94.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:13:10 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_28727980_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (71.3ms)
+Completed 200 OK in 83ms (Views: 74.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:13:20 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356970601820_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (49.6ms)
+Completed 200 OK in 62ms (Views: 53.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:14:29 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356975253520_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (44.1ms)
+Completed 200 OK in 63ms (Views: 49.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:14:38 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976915000_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (49.1ms)
+Completed 200 OK in 62ms (Views: 53.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:14:54 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_30858760_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (49.7ms)
+Completed 200 OK in 61ms (Views: 53.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:15:03 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.6ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356975286120_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (57.9ms)
+Completed 200 OK in 72ms (Views: 61.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:15:11 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976424380_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (61.1ms)
+Completed 200 OK in 78ms (Views: 66.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-03-20 18:15:27 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (19.7ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___2806345828503811173_11502380_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_11470520_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered users/new.html.haml within layouts/application (49.3ms)
+Completed 200 OK in 92ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:15:41 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356978608460_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered pages/home.html.haml within layouts/application (68.1ms)
+Completed 200 OK in 84ms (Views: 72.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-03-20 18:15:42 +0100
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (29.7ms)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_users_new_html_haml___2806345828503811173_30100920_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/users/new.html.haml:12)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_30087280_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered users/new.html.haml within layouts/application (70.1ms)
+Completed 200 OK in 124ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-20 18:15:45 +0100
+  Processing by UserSessionsController#new as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976489400_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+Rendered user_sessions/new.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 52ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2016-03-20 18:16:00 +0100
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iHy4oGPIlXtmpCUc60dojnYi3pItRoEjU9I07U+wTrI=", "user_session"=>{"login"=>"carlos", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE ("users".login LIKE 'carlos') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "login_count" = 6, "last_login_at" = '2016-03-19 18:33:17.452592', "current_login_at" = '2016-03-20 17:16:00.291616', "last_request_at" = '2016-03-20 17:16:00.292098', "perishable_token" = 'qqSSNtWI9uUshUQrERA', "updated_at" = '2016-03-20 17:16:00.292786' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 503ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:16:00 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356969240660_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:16:00.868365', "perishable_token" = '7OthgOwAEi3hXI6fNYZ', "updated_at" = '2016-03-20 17:16:00.869012' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered pages/home.html.haml within layouts/application (163.7ms)
+Completed 200 OK in 175ms (Views: 166.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:18:08 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356971133900_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:18:08.592897', "perishable_token" = 'iQw7PjZu1VPOagf4SP5n', "updated_at" = '2016-03-20 17:18:08.593270' WHERE "users"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered pages/home.html.haml within layouts/application (261.6ms)
+Completed 200 OK in 274ms (Views: 264.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:20:01 +0100
+  Processing by PagesController#home as HTML
+  [1m[36mBook Load (0.9ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356977412740_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:20:02.096707', "perishable_token" = 'IAuGZ0EsvZaQuLH2Fc', "updated_at" = '2016-03-20 17:20:02.097086' WHERE "users"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered pages/home.html.haml within layouts/application (238.5ms)
+Completed 200 OK in 251ms (Views: 240.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:20:09 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:20:09.400435', "perishable_token" = 'N1dC5it8TYdrX3S2O7PR', "updated_at" = '2016-03-20 17:20:09.400742' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356970506220_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (227.1ms)
+Completed 200 OK in 272ms (Views: 229.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:22:15 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:22:15.606471', "perishable_token" = 'mxCh1XxyZQW99vprfI9D', "updated_at" = '2016-03-20 17:22:15.606882' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_29971140_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (203.0ms)
+Completed 200 OK in 250ms (Views: 205.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:23:23 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:23:23.893701', "perishable_token" = 'Tah8kZYLIl67OT57Y', "updated_at" = '2016-03-20 17:23:23.894209' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356972460140_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (249.0ms)
+Completed 200 OK in 305ms (Views: 252.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:24:18 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:24:18.684224', "perishable_token" = 'ZpSpKhPlltxKfNTsuu8Z', "updated_at" = '2016-03-20 17:24:18.684659' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976752600_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (137.3ms)
+Completed 200 OK in 178ms (Views: 139.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:26:01 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:26:02.103752', "perishable_token" = '8AdUJ5rQMbNtyFoyBHEq', "updated_at" = '2016-03-20 17:26:02.104425' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356974180400_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (231.4ms)
+Completed 200 OK in 301ms (Views: 233.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:26:31 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:26:31.199258', "perishable_token" = 'k8koaICYFmvRW1qKUHfR', "updated_at" = '2016-03-20 17:26:31.199643' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_28985080_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (261.9ms)
+Completed 200 OK in 308ms (Views: 265.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:27:45 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:27:45.950703', "perishable_token" = 'BdpJHcWuHBrSSk0cpeY', "updated_at" = '2016-03-20 17:27:45.951288' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356977034000_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (259.1ms)
+Completed 200 OK in 304ms (Views: 260.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:28:14 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:28:14.243459', "perishable_token" = '0nym4idc3HafCMybBrbr', "updated_at" = '2016-03-20 17:28:14.243866' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356969220180_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (505.5ms)
+Completed 200 OK in 564ms (Views: 507.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-20 18:29:19 +0100
+  Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."login" = 'carlos' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:29:19.198956', "perishable_token" = 'yrjg08N4xulL8LQvHYK', "updated_at" = '2016-03-20 17:29:19.199363' WHERE "users"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356971793740_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered members/show.html.haml within layouts/application (466.4ms)
+Completed 200 OK in 510ms (Views: 468.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:29:32 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:29:32.550287', "perishable_token" = '7uANviuHdjZa7f5vXbXk', "updated_at" = '2016-03-20 17:29:32.550770' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976152280_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 231ms (Views: 30.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:30:28 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:30:28.483016', "perishable_token" = 'wnkDcLtPHPrxmqSG0VBY', "updated_at" = '2016-03-20 17:30:28.483370' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356970995340_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 461ms (Views: 32.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:31:04 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:31:04.425427', "perishable_token" = 'o7uq6iBFoYNIBMqZthj5', "updated_at" = '2016-03-20 17:31:04.425790' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_31096200_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (30.3ms)
+Completed 200 OK in 294ms (Views: 32.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:32:31 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:32:31.938272', "perishable_token" = 'EOSIJxBwepUPeDHtfUY', "updated_at" = '2016-03-20 17:32:31.938665' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976319200_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (38.9ms)
+Completed 200 OK in 250ms (Views: 42.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:32:47 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:32:47.611241', "perishable_token" = 'HPCisRoPEtsWXNweTZbZ', "updated_at" = '2016-03-20 17:32:47.611593' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356974627120_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 273ms (Views: 32.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:32:57 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:32:57.959615', "perishable_token" = 'XLXszSqsYl9XorFh', "updated_at" = '2016-03-20 17:32:57.960198' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_30206780_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (40.6ms)
+Completed 200 OK in 302ms (Views: 43.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-20 18:33:10 +0100
+  Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:33:10.594592', "perishable_token" = 'ddyqgFMjrHtD0FlgPuT', "updated_at" = '2016-03-20 17:33:10.595110' WHERE "users"."id" = 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1 ORDER BY updated_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356972685680_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered books/index.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 291ms (Views: 33.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/lent" for 127.0.0.1 at 2016-03-20 18:33:25 +0100
+  Processing by UsersController#loans as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:33:25.338409', "perishable_token" = 'SytxwYOmblShQFxju4q', "updated_at" = '2016-03-20 17:33:25.338874' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356969282580_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/loans.html.haml within layouts/application (30.5ms)
+Completed 200 OK in 303ms (Views: 33.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/lent" for 127.0.0.1 at 2016-03-20 18:41:30 +0100
+  Processing by UsersController#loans as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:41:30.810275', "perishable_token" = 'F8xSLI9S0vI0XXQ05hbx', "updated_at" = '2016-03-20 17:41:30.810694' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_30062560_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/loans.html.haml within layouts/application (38.4ms)
+Completed 200 OK in 233ms (Views: 41.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/borrowed" for 127.0.0.1 at 2016-03-20 18:41:43 +0100
+  Processing by UsersController#borrowings as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:41:43.571505', "perishable_token" = 'WAdA0kNlrH7hNc6ic4', "updated_at" = '2016-03-20 17:41:43.571846' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976097440_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/borrowings.html.haml within layouts/application (28.7ms)
+Completed 200 OK in 245ms (Views: 31.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/borrowed" for 127.0.0.1 at 2016-03-20 18:42:39 +0100
+  Processing by UsersController#borrowings as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:42:39.669846', "perishable_token" = '3QKGSs7H3q7RnwiZJhc', "updated_at" = '2016-03-20 17:42:39.670237' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356975490020_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/borrowings.html.haml within layouts/application (27.7ms)
+Completed 200 OK in 250ms (Views: 30.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/borrowed" for 127.0.0.1 at 2016-03-20 18:42:50 +0100
+  Processing by UsersController#borrowings as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:42:50.510039', "perishable_token" = 'kdcDYK8TVhE77UdjNoug', "updated_at" = '2016-03-20 17:42:50.510385' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356971443220_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/borrowings.html.haml within layouts/application (29.6ms)
+Completed 200 OK in 265ms (Views: 32.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/watchlist" for 127.0.0.1 at 2016-03-20 18:42:57 +0100
+  Processing by UsersController#watched_books as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:42:57.944179', "perishable_token" = 'JeB5nc3funpWfjRDoXi9', "updated_at" = '2016-03-20 17:42:57.944520' WHERE "users"."id" = 1[0m
+  [1m[35mWatching Load (0.2ms)[0m  SELECT "watchings".* FROM "watchings" WHERE "watchings"."user_id" = 1 ORDER BY created_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356978606720_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/watched_books.html.haml within layouts/application (43.9ms)
+Completed 200 OK in 283ms (Views: 48.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/watchlist" for 127.0.0.1 at 2016-03-20 18:43:51 +0100
+  Processing by UsersController#watched_books as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:43:51.812909', "perishable_token" = 'zazdJgRiintF0tFCX0', "updated_at" = '2016-03-20 17:43:51.813284' WHERE "users"."id" = 1[0m
+  [1m[35mWatching Load (0.1ms)[0m  SELECT "watchings".* FROM "watchings" WHERE "watchings"."user_id" = 1 ORDER BY created_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_19945180_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/watched_books.html.haml within layouts/application (37.8ms)
+Completed 200 OK in 262ms (Views: 40.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/watchlist" for 127.0.0.1 at 2016-03-20 18:44:48 +0100
+  Processing by UsersController#watched_books as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:44:48.195695', "perishable_token" = '7qvg5cbTes3OVlv0Vkv', "updated_at" = '2016-03-20 17:44:48.196043' WHERE "users"."id" = 1[0m
+  [1m[35mWatching Load (0.1ms)[0m  SELECT "watchings".* FROM "watchings" WHERE "watchings"."user_id" = 1 ORDER BY created_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356971867200_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/watched_books.html.haml within layouts/application (30.9ms)
+Completed 200 OK in 194ms (Views: 33.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/watchlist" for 127.0.0.1 at 2016-03-20 18:45:10 +0100
+  Processing by UsersController#watched_books as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:45:10.834149', "perishable_token" = 'xIeCrO7r0PpmvwXfs3Rz', "updated_at" = '2016-03-20 17:45:10.834672' WHERE "users"."id" = 1[0m
+  [1m[35mWatching Load (0.2ms)[0m  SELECT "watchings".* FROM "watchings" WHERE "watchings"."user_id" = 1 ORDER BY created_at DESC
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356977607760_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered users/watched_books.html.haml within layouts/application (31.0ms)
+Completed 200 OK in 252ms (Views: 33.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-03-20 18:45:18 +0100
+  Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:45:18.561145', "perishable_token" = '0g1ih3ev7w5pCRXoAcgc', "updated_at" = '2016-03-20 17:45:18.561484' WHERE "users"."id" = 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356975662140_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/index.html.haml within layouts/application (35.9ms)
+Completed 200 OK in 259ms (Views: 39.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-03-20 18:45:38 +0100
+  Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:45:38.941131', "perishable_token" = 'FG86nwQdolk8ydLZT1i', "updated_at" = '2016-03-20 17:45:38.941481' WHERE "users"."id" = 1
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356969361620_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))
+Rendered admin/index.html.haml within layouts/application (41.9ms)
+Completed 200 OK in 287ms (Views: 44.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-03-20 18:45:55 +0100
+  Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:45:55.137186', "perishable_token" = 'kyOudm7mwgiB8BLl8ZF', "updated_at" = '2016-03-20 17:45:55.137552' WHERE "users"."id" = 1[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356976491940_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/index.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 267ms (Views: 45.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/stats" for 127.0.0.1 at 2016-03-20 18:45:57 +0100
+  Processing by AdminController#stats as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:45:57.366277', "perishable_token" = 'kMhU4f3oE8STDTn1PC80', "updated_at" = '2016-03-20 17:45:57.366643' WHERE "users"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "titles"
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans"[0m
+  [1m[35mLoan Load (0.1ms)[0m  SELECT "loans".* FROM "loans" WHERE "loans"."returned" IS NULL
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "watchings"[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356977479760_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/stats.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 320ms (Views: 28.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/stats" for 127.0.0.1 at 2016-03-20 18:47:14 +0100
+  Processing by AdminController#stats as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:47:14.763525', "perishable_token" = 'MgLWjxUbGO9nv93JQ3e', "updated_at" = '2016-03-20 17:47:14.763961' WHERE "users"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "titles"
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans"[0m
+  [1m[35mLoan Load (0.1ms)[0m  SELECT "loans".* FROM "loans" WHERE "loans"."returned" IS NULL
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "watchings"[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356974354900_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/stats.html.haml within layouts/application (40.0ms)
+Completed 200 OK in 346ms (Views: 43.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/stats" for 127.0.0.1 at 2016-03-20 18:47:28 +0100
+  Processing by AdminController#stats as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:47:28.520658', "perishable_token" = 'mMPYHOnSPkVqzotiPr5', "updated_at" = '2016-03-20 17:47:28.521067' WHERE "users"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "titles"
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans"[0m
+  [1m[35mLoan Load (0.1ms)[0m  SELECT "loans".* FROM "loans" WHERE "loans"."returned" IS NULL
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "watchings"[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_31522920_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/stats.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 312ms (Views: 36.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2016-03-20 18:47:31 +0100
+  Processing by AdminController#users as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:47:31.358062', "perishable_token" = 'JisQNH9UQT25eK923Iwr', "updated_at" = '2016-03-20 17:47:31.358518' WHERE "users"."id" = 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."status" = 'admin' ORDER BY login[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."banned" = 'f' AND "users"."status" = 'user' ORDER BY login
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."banned" = 't' AND "users"."status" = 'user' ORDER BY login[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from block in _app_views_admin_users_html_haml__2127108660709578250_70356977583840_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/admin/users.html.haml:16)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356977565020_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/users.html.haml within layouts/application (39.1ms)
+Completed 200 OK in 313ms (Views: 42.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2016-03-20 18:47:56 +0100
+  Processing by AdminController#users as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:47:56.890665', "perishable_token" = 'SwQUAbIY1opOsRGNrrC', "updated_at" = '2016-03-20 17:47:56.891048' WHERE "users"."id" = 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."status" = 'admin' ORDER BY login[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."banned" = 'f' AND "users"."status" = 'user' ORDER BY login
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."banned" = 't' AND "users"."status" = 'user' ORDER BY login[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from block in _app_views_admin_users_html_haml__2127108660709578250_19618120_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/admin/users.html.haml:16)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_19535380_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/users.html.haml within layouts/application (42.7ms)
+Completed 200 OK in 299ms (Views: 45.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2016-03-20 18:49:13 +0100
+  Processing by AdminController#users as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = '2016-03-20 17:49:13.560579', "perishable_token" = 'ifAUKQkpDsX1uNsgDdr', "updated_at" = '2016-03-20 17:49:13.560934' WHERE "users"."id" = 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."status" = 'admin' ORDER BY login[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."banned" = 'f' AND "users"."status" = 'user' ORDER BY login
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."banned" = 't' AND "users"."status" = 'user' ORDER BY login[0m
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from block in _app_views_admin_users_html_haml__2127108660709578250_70356972657260_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/admin/users.html.haml:16)
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_70356972654880_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered admin/users.html.haml within layouts/application (51.8ms)
+Completed 200 OK in 308ms (Views: 55.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-20 18:49:22 +0100
+  Processing by PagesController#home as HTML
+  [1m[35mBook Load (0.9ms)[0m  SELECT "books".* FROM "books" ORDER BY RANDOM() LIMIT 30
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_layouts_application_html_haml___2603473559222657214_14133140_153163941474674109 at /home/carlos/APP/LibreTeka-from-BookShare/app/views/layouts/application.html.haml:18)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = '2016-03-20 17:49:22.210735', "perishable_token" = 'WITJKWRZTiehh8KHdT4', "updated_at" = '2016-03-20 17:49:22.211194' WHERE "users"."id" = 1[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE ("books".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE ("loans".lender_id = 1 AND ("loans"."returned" IS NULL))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE ("loans".borrower_id = 1 AND ("loans"."returned" IS NULL))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books".id = "watchings".book_id WHERE (("watchings".user_id = 1))[0m
+Rendered pages/home.html.haml within layouts/application (284.8ms)
+Completed 200 OK in 303ms (Views: 288.3ms | ActiveRecord: 2.2ms)

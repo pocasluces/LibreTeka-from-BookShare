@@ -1,6 +1,6 @@
 - @page_title = "Borrowed"
 
-%h1 Borrowed from others
+%h1 Libros reusados de otros usuarios.
 
 - if @loans.count > 0
   %table
@@ -31,4 +31,4 @@
           %br
           = link_to loan.lender.login, :controller => :members, :action => :show, :login => loan.lender.login
 - else
-  %p You aren't borrowing any books.
+  %p No tienes prestado ningún libro a nadie más.

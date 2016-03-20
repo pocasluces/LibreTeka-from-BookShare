@@ -1,6 +1,6 @@
 - @page_title = "Lent"
 
-%h1 Lent to others
+%h1 Libros tuyos que están reusando otros usuarios.
 
 - if @loans.count > 0
   %table
@@ -35,4 +35,4 @@
             = f.submit "Check In"
         
 - else
-  %p You aren't lending any books.
+  %p No tienes prestado ningún libro.
