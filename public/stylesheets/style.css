@@ -1,6 +1,6 @@
 body {
   background-color: #fff; color: #333;
-  width: 960px;
+  width: 90%;
   margin: 30px auto;
 }
 
@@ -17,7 +17,7 @@ pre {
 }
 
 a { color: #000; }
-a:visited { color: #666; }
+a:visited { color: #000; }
 a:hover { color: #fff; background-color:#000; }
 
 div.field, div.actions {
@@ -61,6 +61,8 @@ h1.logo
 .logo img
 {
   vertical-align: text-bottom;
+  font-weight: bold;
+
 }
 
 #notice {
@@ -100,7 +102,7 @@ h1.logo
 
 #userbar
 {
-  background-color: #eee;
+  background-color: #FF0000;
   padding: 5px 15px;
   margin: 10px 0 30px 0;
   vertical-align: center;
@@ -183,14 +185,43 @@ div
 #search
 {
   text-align: right;
+  width: 65%;
+  float: right;
+
 }
+
+#logolibr
+{
+  text-align: left;
+  width: 35%;
+  float: left;
+}
+
+#firstmenu
+{
+  WIDTH: 100%;
+  height: 100px;
+}
+
+#home{
+  WIDTH: 100%;
+  height: 350px;
+}
+
+#mascota{
+  text-align: left;
+  width: 35%;
+  float: left;
+} 
 
 #puffbox
 {
   background-color: beige;
   font-size:        100%;
-  padding:          10px 30px;
-  width:            900px;
+  text-align: center;
+  width: 65%;
+  float: right;
+  line-height: 503px;
 }
 
 a.button, a.button:visited
