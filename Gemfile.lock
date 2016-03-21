@@ -117,6 +117,7 @@ DEPENDENCIES
   rails
   rails3-generators
   simplecov (>= 0.8.2)
+  rcov
   sqlite3
   texticle (< 2.0)
   themes_for_rails
