@@ -62,8 +62,8 @@ class BooksController < ApplicationController
             format.xml  { render :xml => @book.errors, :status => :unprocessable_entity }
           end
         end
-    else
-      flash[:alert] = "Invalid ISBN."
+      else
+      flash[:alert] = "ISBN inválido."
       redirect_to :books
     end
 
