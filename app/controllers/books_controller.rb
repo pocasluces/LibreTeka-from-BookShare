@@ -55,7 +55,7 @@ class BooksController < ApplicationController
     
         respond_to do |format|
           if ! @book.nil?
-            format.html { redirect_to(books_path, :notice => 'Book was added OK') }
+            format.html { redirect_to(books_path, :notice => 'Libro añadido correctamente.') }
             format.xml  { render :xml => @book, :status => :created, :location => @book }
           else
             format.html { render :action => "new" }
