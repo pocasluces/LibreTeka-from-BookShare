@@ -43,3 +43,7 @@ end
 group :production, :staging do
   gem 'pg'
 end
+
+gem 'archive-tar-minitar'
+gem 'hoe'
+gem 'rcov'
