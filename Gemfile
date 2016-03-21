@@ -1,9 +1,10 @@
 source 'http://rubygems.org'
 
 gem 'rails'
+#gem 'actionmailer', '~> 4.2', '>= 4.2.2'
 gem 'authlogic'
-#1gem 'rails3-generators'
-#1gem 'dynamic_form'
+gem 'rails3-generators'
+gem 'dynamic_form'
 # gem 'nokogiri' #, '~> 1.6', '>= 1.6.7.2'
 ##gem 'nokogiri'
 ##gem 'cuecat'
@@ -11,7 +12,7 @@ gem 'isbn'
 ##gem 'themes_for_rails', '~> 0.5.1'
 gem 'themes_for_rails'
 gem 'httpclient'
-#1gem 'json_pure'
+gem 'json_pure'
 
 gem 'texticle', '< 2.0'#, :require => 'texticle/rails'
 
