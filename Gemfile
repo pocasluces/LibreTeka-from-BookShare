@@ -46,4 +46,8 @@ end
 
 gem 'archive-tar-minitar'
 gem 'hoe'
-gem 'rcov'
+if RUBY_VERSION > '1.9' then
+  gem 'simplecov', '>= 0.8.2'
+else
+  gem 'rcov', '>= 0'
+end
