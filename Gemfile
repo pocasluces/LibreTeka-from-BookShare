@@ -2,16 +2,16 @@ source 'http://rubygems.org'
 
 gem 'rails'
 gem 'authlogic'
-gem 'rails3-generators'
-gem 'dynamic_form'
-gem 'nokogiri' #, '~> 1.6', '>= 1.6.7.2'
+#1gem 'rails3-generators'
+#1gem 'dynamic_form'
+# gem 'nokogiri' #, '~> 1.6', '>= 1.6.7.2'
 ##gem 'nokogiri'
-gem 'cuecat'
+##gem 'cuecat'
 gem 'isbn'
 ##gem 'themes_for_rails', '~> 0.5.1'
 gem 'themes_for_rails'
 gem 'httpclient'
-gem 'json_pure'
+#1gem 'json_pure'
 
 gem 'texticle', '< 2.0'#, :require => 'texticle/rails'
 
@@ -44,10 +44,10 @@ group :production, :staging do
   gem 'pg'
 end
 
-gem 'archive-tar-minitar'
-gem 'hoe'
-if RUBY_VERSION > '1.9' then
-  gem 'simplecov', '>= 0.8.2'
-else
-  gem 'rcov', '>= 0'
-end
+#gem 'archive-tar-minitar'
+#gem 'hoe'
+#if RUBY_VERSION > '1.9' then
+#  gem 'simplecov', '>= 0.8.2'
+#else
+#  gem 'rcov', '>= 0'
+#end
