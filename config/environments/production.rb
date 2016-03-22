@@ -14,6 +14,10 @@ NestaBookshare::Application.configure do
 
   # For nginx:
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+  
+  #configuración de nivel de información en el log.
+  config.log_level = :info
+
 
   # If you have no front-end server that supports something like X-Sendfile,
   # just comment this out and Rails will serve the files
@@ -29,7 +33,7 @@ NestaBookshare::Application.configure do
 
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
-  config.serve_static_assets = false
+  config.serve_static_files = false
 
   # Tras la actualizacion de gemas
   config.eager_load = true
