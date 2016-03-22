@@ -4,7 +4,7 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.xml
   def index
-    @books = Book.find_all_by_user_id(current_user.id, :order => 'updated_at DESC')
+    @books = Book.where(current_user.id, :order => 'updated_at DESC')
 
     respond_to do |format|
       format.html # index.html.erb

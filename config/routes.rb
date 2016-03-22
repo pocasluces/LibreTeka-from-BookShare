@@ -25,18 +25,18 @@ NestaBookshare::Application.routes.draw do
   resources :user_sessions
   resources :password_resets
 
-  match 'watchlist' => "users#watched_books"
-  match 'login' => "user_sessions#new",      :as => :login
-  match 'logout' => "user_sessions#destroy", :as => :logout
-  match 'register' => "users#new", :as => :register
-  match 'members/:login' => "members#show"
-  match 'lent' => 'users#loans', :as => :lent
-  match 'borrowed' => 'users#borrowings', :as => :borrowings
-  match 'search' => 'search#index', :as => :search
+  get 'watchlist' => "users#watched_books"
+  get 'login' => "user_sessions#new",      :as => :login
+  get 'logout' => "user_sessions#destroy", :as => :logout
+  get 'register' => "users#new", :as => :register
+  get 'members/:login' => "members#show"
+  get 'lent' => 'users#loans', :as => :lent
+  get 'borrowed' => 'users#borrowings', :as => :borrowings
+  get 'search' => 'search#index', :as => :search
   
   # Static pages
-  match 'accessibility' => 'pages#accessibility', :as => :accessibility
-  match 'contact' => 'pages#contact', :as => :contact
+  get 'accessibility' => 'pages#accessibility', :as => :accessibility
+  get 'contact' => 'pages#contact', :as => :contact
   
   
   # The priority is based upon order of creation:
@@ -94,5 +94,5 @@ NestaBookshare::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  match ':controller(/:action(/:id(.:format)))'
+  get ':controller(/:action(/:id(.:format)))'
 end

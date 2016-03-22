@@ -16,16 +16,14 @@ class User < ActiveRecord::Base
             :foreign_key => :lender_id
             
   has_many  :active_borrowings,
+            -> { where("returned is null").order "created_at desc" },
             :class_name => "Loan",
-            :foreign_key => :borrower_id,
-            :conditions => { :returned => nil },
-            :order => 'created_at DESC'
-            
+            :foreign_key => :borrower_id
+
   has_many  :active_loans,
+            -> { where("returned is null").order "created_at desc" },
             :class_name => "Loan",
-            :foreign_key => :lender_id,
-            :conditions => { :returned => nil },
-            :order => 'created_at DESC'
+            :foreign_key => :lender_id
   
   has_many  :bans            
   
@@ -43,6 +41,7 @@ class User < ActiveRecord::Base
   
 #   attr_protected :status, :banned
 
+#  attr_accesible no funciona en ruby4 introducimos la gema protected_attributes para que no de error.
   attr_accessible :login, :email, :first_name, :last_name, :address1, :address2, :city, :county, :postcode, :phone, :password, :password_confirmation
     
   def to_param
@@ -57,7 +56,7 @@ class User < ActiveRecord::Base
   
   # http://littleshardsofruby.posterous.com/changing-authlogics-login-field
   acts_as_authentic do |c|
-    c.validates_format_of_login_field_options = {:with => /^[a-zA-Z0-9]+$/, :message => I18n.t('error_messages.login_invalid', :default => "should use only letters and numbers")}   
+    c.validates_format_of_login_field_options = {:with => /\A[a-zA-Z0-9]+\z/, :message => I18n.t('error_messages.login_invalid', :default => "should use only letters and numbers")}   
     c.validates_length_of_login_field_options = {:within => 5..20} 
   end
   

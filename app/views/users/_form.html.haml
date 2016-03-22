@@ -2,44 +2,44 @@
 
 %h2 About You
 
-%div
+.field
   = form.label :first_name
   *
   %br
   = form.text_field :first_name
-%div
+.field
   = form.label :last_name
   *
   %br
   = form.text_field :last_name
-%div
+.field
   = form.label :address1
   *
   %br
   = form.text_field :address1
-%div
+.field
   = form.label :address2
   %br
   = form.text_field :address2
-%div
+.field
   = form.label :city
   *
   %br
   = form.text_field :city
-%div
+.field
   = form.label :county
   %br
   = form.text_field :county
-%div
+.field
   = form.label :postcode
   *
   %br
   = form.text_field :postcode
-%div
+.field
   = form.label :phone
   %br
   = form.text_field :phone
-%div
+.field
   = form.label :email
   *
   %br
@@ -47,16 +47,16 @@
 
 %h2 Your Account
 
-%div
+.field
   = form.label "Choose a username (only letters and numbers allowed)"
   *
   %br
   = form.text_field :login
-%div
+.field
   = form.label "Choose a password", form.object.new_record? ? nil : "Change password"
   %br
   = form.password_field :password
-%div
+.field
   = form.label "Retype your password"
   %br
   = form.password_field :password_confirmation

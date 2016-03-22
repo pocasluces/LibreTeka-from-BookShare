@@ -13,7 +13,7 @@ config.action_mailer.perform_deliveries = true
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
-  config.action_view.debug_rjs             = true
+  #config.action_view.debug_rjs             = true
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
@@ -31,6 +31,9 @@ config.action_mailer.perform_deliveries = true
   
   # Mailer settings for MockSmtp on OSX
   config.action_mailer.delivery_method = :smtp
+
+  # Tras la actualizacion 
+  config.eager_load = false
 
   ActionMailer::Base.smtp_settings = {
     :address => "0.0.0.0",

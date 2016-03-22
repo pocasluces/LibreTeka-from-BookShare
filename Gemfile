@@ -19,6 +19,9 @@ gem 'texticle', '< 2.0'#, :require => 'texticle/rails'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+#introducimos esta gema para poder usar attr_accessible como antes de cambiar a rails 4
+gem 'protected_attributes'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

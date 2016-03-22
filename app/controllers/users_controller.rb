@@ -54,7 +54,7 @@ class UsersController < ApplicationController
   end
     
   def watched_books
-    @watchings = Watching.find_all_by_user_id(current_user, :order => "created_at DESC")
+    @watchings = Watching.where(current_user, :order => "created_at DESC")
   end
   
   def loans
