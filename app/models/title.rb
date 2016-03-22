@@ -7,7 +7,8 @@ class Title < ActiveRecord::Base
   
   validates_length_of :title, :minimum => 1
   validates_associated :authors
-  validates_isbn :isbn13, :with => :isbn13
+  #ToDo: comento validates_isbn porque da errores al desplegar en heroku.
+  #validates_isbn :isbn13, :with => :isbn13
   
   index do
     title
