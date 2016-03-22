@@ -14407,3 +14407,34 @@ ActionView::Template::Error (Cannot visit User):
   Rendered /var/lib/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
   Rendered /var/lib/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /var/lib/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-22 17:01:01 +0100
+Processing by PagesController#home as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  Rendered pages/home.html.haml within layouts/application (12.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-22 16:01:01.552679"], ["perishable_token", "F33BT5ySppwsdvPlD3i"], ["updated_at", "2016-03-22 16:01:01.553649"], ["id", 1]]
+  [1m[36m (253.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 598ms (Views: 328.0ms | ActiveRecord: 258.2ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-22 17:01:07 +0100
+Processing by UserSessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-22 16:01:07.227198"], ["perishable_token", "fMwptJQDKAbFGbMZtDN"], ["updated_at", "2016-03-22 16:01:07.228100"], ["id", 1]]
+  [1m[36m (171.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 181ms (ActiveRecord: 172.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-22 17:01:07 +0100
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)

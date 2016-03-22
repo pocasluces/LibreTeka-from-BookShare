@@ -57,6 +57,8 @@ GEM
     httpclient (2.7.1)
     i18n (0.7.0)
     isbn (2.0.10)
+    isbn_validation (1.2.2)
+      activerecord (>= 3)
     json (1.8.3)
     json_pure (1.8.3)
     loofah (2.0.3)
@@ -131,6 +133,7 @@ DEPENDENCIES
   haml
   httpclient
   isbn
+  isbn_validation
   json_pure
   pg
   protected_attributes
