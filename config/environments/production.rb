@@ -16,7 +16,7 @@ NestaBookshare::Application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   
   #configuración de nivel de información en el log.
-  config.log_level = :info
+  config.log_level = :debug
 
 
   # If you have no front-end server that supports something like X-Sendfile,
