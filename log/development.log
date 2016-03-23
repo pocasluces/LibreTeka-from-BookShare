@@ -16251,3 +16251,177 @@ Processing by PagesController#home as HTML
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
   [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?  [["user_id", 1]]
 Completed 200 OK in 213ms (Views: 34.7ms | ActiveRecord: 178.1ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-23 19:31:20 +0100
+Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."login" = ? LIMIT 1[0m  [["login", "carlos"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:20.459162"], ["perishable_token", "MuHOxeyL0AlgsRbYqP"], ["updated_at", "2016-03-23 18:31:20.460452"], ["id", 1]]
+  [1m[36m (135.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ?[0m  [["borrower_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ?  [["lender_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered members/show.html.haml within layouts/application (205.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 600ms (Views: 300.9ms | ActiveRecord: 143.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-23 19:31:23 +0100
+Processing by PagesController#home as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  Rendered pages/home.html.haml within layouts/application (6.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_request_at", "2016-03-23 18:31:23.454473"], ["perishable_token", "0nDl2NB78hozrQWE91"], ["updated_at", "2016-03-23 18:31:23.455581"], ["id", 1]]
+  [1m[35m (92.2ms)[0m  commit transaction
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?  [["user_id", 1]]
+Completed 200 OK in 123ms (Views: 28.6ms | ActiveRecord: 94.0ms)
+
+
+Started GET "/members/carlos" for 127.0.0.1 at 2016-03-23 19:31:25 +0100
+Processing by MembersController#show as HTML
+  Parameters: {"login"=>"carlos"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."login" = ? LIMIT 1[0m  [["login", "carlos"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:25.525741"], ["perishable_token", "cTsrCRxKMhmpOWje4ly"], ["updated_at", "2016-03-23 18:31:25.526505"], ["id", 1]]
+  [1m[36m (106.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ?[0m  [["borrower_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ?  [["lender_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered members/show.html.haml within layouts/application (128.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 145ms (Views: 35.3ms | ActiveRecord: 108.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2016-03-23 19:31:31 +0100
+Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:31.389435"], ["perishable_token", "d4J32kcYd5DUvuiXzAJQ"], ["updated_at", "2016-03-23 18:31:31.390486"], ["id", 1]]
+  [1m[36m (101.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE (1)
+  Rendered books/index.html.haml within layouts/application (9.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?  [["user_id", 1]]
+Completed 200 OK in 132ms (Views: 21.2ms | ActiveRecord: 103.1ms)
+
+
+Started GET "/lent" for 127.0.0.1 at 2016-03-23 19:31:36 +0100
+Processing by UsersController#loans as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_request_at", "2016-03-23 18:31:36.552932"], ["perishable_token", "QJpKPARFWSA7ug3If9q"], ["updated_at", "2016-03-23 18:31:36.554354"], ["id", 1]]
+  [1m[35m (107.8ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  Rendered users/loans.html.haml within layouts/application (12.8ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 153ms (Views: 33.0ms | ActiveRecord: 109.4ms)
+
+
+Started GET "/borrowed" for 127.0.0.1 at 2016-03-23 19:31:38 +0100
+Processing by UsersController#borrowings as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:38.063322"], ["perishable_token", "wjZLvvwvTO8bcpu3e4DJ"], ["updated_at", "2016-03-23 18:31:38.064086"], ["id", 1]]
+  [1m[36m (96.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  Rendered users/borrowings.html.haml within layouts/application (4.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?  [["user_id", 1]]
+Completed 200 OK in 118ms (Views: 14.5ms | ActiveRecord: 98.0ms)
+
+
+Started GET "/watchlist" for 127.0.0.1 at 2016-03-23 19:31:40 +0100
+Processing by UsersController#watched_books as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_request_at", "2016-03-23 18:31:40.203937"], ["perishable_token", "KwG7IixwAuPOdHY4e4"], ["updated_at", "2016-03-23 18:31:40.205752"], ["id", 1]]
+  [1m[35m (94.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "watchings" WHERE "watchings"."user_id" = 1[0m
+  Rendered users/watched_books.html.haml within layouts/application (5.8ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 127ms (Views: 18.3ms | ActiveRecord: 96.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-03-23 19:31:41 +0100
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:41.176743"], ["perishable_token", "4DTh4YlklZP8LGCTMp7d"], ["updated_at", "2016-03-23 18:31:41.178164"], ["id", 1]]
+  [1m[36m (99.3ms)[0m  [1mcommit transaction[0m
+  Rendered admin/index.html.haml within layouts/application (4.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)[0m  [["lender_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)  [["borrower_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?[0m  [["user_id", 1]]
+Completed 200 OK in 130ms (Views: 19.5ms | ActiveRecord: 100.5ms)
+
+
+Started GET "/admin/stats" for 127.0.0.1 at 2016-03-23 19:31:46 +0100
+Processing by AdminController#stats as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_request_at", "2016-03-23 18:31:46.671127"], ["perishable_token", "eHu6ILKzMLReD3qXDO3y"], ["updated_at", "2016-03-23 18:31:46.672530"], ["id", 1]]
+  [1m[36m (98.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "titles"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans"
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."returned" = ?[0m  [["returned", "nil"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchings"
+  Rendered admin/stats.html.haml within layouts/application (2.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "loans" WHERE "loans"."lender_id" = ? AND (returned is null)  [["lender_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "loans" WHERE "loans"."borrower_id" = ? AND (returned is null)[0m  [["borrower_id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" INNER JOIN "watchings" ON "books"."id" = "watchings"."book_id" WHERE "watchings"."user_id" = ?  [["user_id", 1]]
+Completed 200 OK in 186ms (Views: 13.7ms | ActiveRecord: 100.4ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-23 19:31:52 +0100
+Processing by UserSessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_request_at" = ?, "perishable_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_request_at", "2016-03-23 18:31:52.997361"], ["perishable_token", "1SUUeBfCQxYCT70uFQks"], ["updated_at", "2016-03-23 18:31:52.998274"], ["id", 1]]
+  [1m[35m (108.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/login
+Completed 302 Found in 117ms (ActiveRecord: 109.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-23 19:31:53 +0100
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.haml within layouts/application (67.1ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-23 19:31:57 +0100
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms)
