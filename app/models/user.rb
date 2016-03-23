@@ -77,15 +77,16 @@ class User < ActiveRecord::Base
   end
 
   def self.admins
-    User.find_all_by_status('admin', :order => :login)
+    User.where(status: 'admin').order(:login)
   end
 
   def self.banned
-    User.find_all_by_banned_and_status(true, 'user', :order => :login) # It's implicit that status will be 'user' as admins can't be banned
+    User.where(banned: true, status: 'user').order(:login)
+    # It's implicit that status will be 'user' as admins can't be banned
   end
 
   def self.non_admins
-    User.find_all_by_banned_and_status(false, 'user', :order => :login)
+    User.where(banned: false, status: 'user').order(:login)
   end
   
   def owns?(book)

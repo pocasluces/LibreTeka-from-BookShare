@@ -13,7 +13,7 @@
           %td
             = user.status
           %td
-            - form_for user, :method => 'post', :url => demote_user_path(:id => user.login) do |f|
+            = form_for user, :method => 'post', :url => demote_user_path(:id => user.login) do |f|
               = f.error_messages
               = f.submit "Demote"
   - else
@@ -34,7 +34,7 @@
           %td
             = user.status
           %td
-            - form_for user, :url => unban_user_path(user.id) do |f|
+            = form_for user, :url => unban_user_path(user.id) do |f|
               = f.error_messages
               = f.submit "Unban"        
   
@@ -58,7 +58,7 @@
           %td
             = link_to "Ban", new_ban_path(:login => user.login)
           %td
-            - form_for user, :method => 'post', :url => promote_user_path(:id => user.login) do |f|
+            = form_for user, :method => 'post', :url => promote_user_path(:id => user.login) do |f|
               = f.error_messages
               = f.submit "Promote"
               

@@ -9,7 +9,7 @@ class AdminController < ApplicationController
     @users = User.count
     @books = Title.count
     @loans = Loan.count
-    @current_loans = Loan.find_all_by_returned(nil).count
+    @current_loans = Loan.where(returned: :nil).count
     @watchings = Watching.count
   end
   

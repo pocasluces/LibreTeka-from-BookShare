@@ -15,7 +15,7 @@
         <IMG SRC="/images/logo.png" ALT="La primera biblioteca física p2p" WIDTH=300 HEIGHT=100% >
 
       #search
-        - form_tag(search_path, :method => :get) do
+        = form_tag(search_path, :method => :get) do
           = text_field_tag :q, '', { :size => 25, :class => 'bigfield' }
           = submit_tag "Buscar Libro", { :class => 'bigfield' }
         
@@ -58,10 +58,10 @@
       = yield
     
     #footer
-      %a{ :href => "http://http://www.stsi-madrid.org/" }<
+      %a{ :href => "http://www.stsi-madrid.org/", :title => "STSI" }
         Desarrollado por el STSI. 
       &nbsp;&nbsp;
-      %a{ :href => 'https://github.com/pocasluces/LibreTeka-from-BookShare' }<
+      %a{ :href => "https://github.com/pocasluces/LibreTeka-from-BookShare", :title => "Ir a github" }
         Código abierto y libre.
       &nbsp;&nbsp;
 
