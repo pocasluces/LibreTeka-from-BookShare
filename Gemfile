@@ -45,7 +45,7 @@ group :development, :test do
 #   gem 'webrat'
 end
 
-group :production, :staging do
+group :production do
   gem 'pg'
 end
 
