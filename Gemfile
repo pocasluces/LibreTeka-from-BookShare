@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby "2.1.5"
+
 gem 'rails'
 #gem 'actionmailer', '~> 4.2', '>= 4.2.2'
 gem 'authlogic'
@@ -14,6 +16,7 @@ gem 'isbn_validation'
 gem 'themes_for_rails'
 gem 'httpclient'
 gem 'json_pure'
+gem 'rails_12factor'
 
 gem 'texticle', '< 2.0'#, :require => 'texticle/rails'
 
