@@ -1,0 +1,195 @@
+  [1m[36m (119.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (85.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20101101212939)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20101101212939"]]
+  [1m[35m (159.1ms)[0m  commit transaction
+Migrating to CreateBooks (20101101213832)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20101101213832"]]
+  [1m[35m (120.5ms)[0m  commit transaction
+Migrating to AddExtraUserFields (20101217153147)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "login" varchar DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "crypted_password" varchar DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "password_salt" varchar DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "persistence_token" varchar DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "single_access_token" varchar DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "perishable_token" varchar DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "login_count" integer DEFAULT 0 NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "failed_login_count" integer DEFAULT 0 NOT NULL
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_request_at" datetime[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "current_login_at" datetime
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_login_at" datetime[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "current_login_ip" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_login_ip" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20101217153147"]]
+  [1m[36m (66.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateTitles (20101218114935)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "titles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar DEFAULT '', "subtitle" varchar, "description" text, "image_url" varchar(255), "subject_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20101218114935"]]
+  [1m[36m (103.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSubjects (20101218115937)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "subjects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT '', "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20101218115937"]]
+  [1m[36m (68.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateAuthors (20101218120054)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "authors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT '', "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "authors_titles" ("author_id" integer, "title_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_authors_titles_on_author_id" ON "authors_titles" ("author_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_authors_titles_on_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_authors_titles_on_author_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_authors_titles_on_title_id" ON "authors_titles" ("title_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20101218120054"]]
+  [1m[36m (146.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddTitleAndUserIdsToBooks (20101218122711)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "books"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20101218122711"]]
+  [1m[35m (115.8ms)[0m  commit transaction
+Migrating to CreateWatchings (20110103164416)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "watchings" ("member_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110103164416"]]
+  [1m[35m (85.7ms)[0m  commit transaction
+Migrating to AddUsersToWatchings (20110103164855)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "awatchings" ("user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "watchings"[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "watchings"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "watchings" ("user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "awatchings"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "awatchings"[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110103164855"]]
+  [1m[36m (94.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddIdToWatchings (20110108210356)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mDROP TABLE "watchings"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "watchings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "book_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110108210356"]]
+  [1m[35m (128.4ms)[0m  commit transaction
+Migrating to CreateLoans (20110109153037)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "loans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "due" date, "returned" datetime, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "books" ADD "status" integer DEFAULT 0[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110109153037"]]
+  [1m[36m (178.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddAddressFieldsToUser (20110111162058)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "first_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "last_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "address1" varchar[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "address2" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "city" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "county" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "postcode" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "phone" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110111162058"]]
+  [1m[35m (88.5ms)[0m  commit transaction
+Migrating to CreateSearches (20110228221120)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "searches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "query" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110228221120"]]
+  [1m[35m (150.8ms)[0m  commit transaction
+Migrating to AddResultsCountToSearches (20110228221908)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "searches" ADD "results" integer
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110228221908"]]
+  [1m[35m (151.5ms)[0m  commit transaction
+Migrating to RemoveDueFromLoans (20110323151412)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "aloans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "due" date, "returned" datetime, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "loans"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "loans"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "loans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "lender_id" integer, "borrower_id" integer, "returned" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aloans"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "aloans"[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110323151412"]]
+  [1m[36m (158.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddStatusToUsers (20110817142642)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "status" varchar DEFAULT 'user'[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110817142642"]]
+  [1m[36m (114.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBans (20110825153442)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "admin_id" integer, "reason" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110825153442"]]
+  [1m[36m (176.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddBannedToUsers (20110825170855)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "banned" boolean DEFAULT 'f'[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110825170855"]]
+  [1m[36m (82.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddUnbannedByToBans (20110830190734)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "bans" ADD "unbanned_by" integer[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "abans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banned_by" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "bans"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "bans"
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banned_by" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "abans"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "abans"[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20110830190734"]]
+  [1m[36m (134.5ms)[0m  [1mcommit transaction[0m
+Migrating to RenameBannedByAndUnBannedByInBans (20110830202726)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "abans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "bans"
+  [1m[36m (0.6ms)[0m  [1mDROP TABLE "bans"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanned_by" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "abans"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "abans"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "abans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanner" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "bans"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "bans"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "bans" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unbanned_at" datetime, "user_id" integer, "banner" integer, "reason" text, "created_at" datetime, "updated_at" datetime, "unbanner" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "abans"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "abans"
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20110830202726"]]
+  [1m[35m (141.0ms)[0m  commit transaction
+Migrating to CreateSubjectsTitlesJoinTable (20111024165639)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "subjects_titles" ("subject_id" integer, "title_id" integer) 
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "atitles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar DEFAULT '', "subtitle" varchar, "description" text, "image_url" varchar(255), "subject_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "titles"
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "titles"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "titles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn13" varchar(13) DEFAULT '', "title" varchar DEFAULT '', "subtitle" varchar, "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "atitles"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "atitles"
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20111024165639"]]
+  [1m[35m (134.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_authors_titles_on_title_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_authors_titles_on_title_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_authors_titles_on_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_authors_titles_on_author_id' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m

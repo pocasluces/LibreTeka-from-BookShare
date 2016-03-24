@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 20111024165639) do
   end
 
   create_table "searches", force: :cascade do |t|
-    t.string   "query",      limit: 255
+    t.string   "query"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "results"
@@ -74,8 +74,8 @@ ActiveRecord::Schema.define(version: 20111024165639) do
 
   create_table "titles", force: :cascade do |t|
     t.string   "isbn13",      limit: 13,  default: ""
-    t.string   "title",       limit: 255, default: ""
-    t.string   "subtitle",    limit: 255
+    t.string   "title",                   default: ""
+    t.string   "subtitle"
     t.text     "description"
     t.string   "image_url",   limit: 255
     t.datetime "created_at"
@@ -85,30 +85,30 @@ ActiveRecord::Schema.define(version: 20111024165639) do
   create_table "users", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "login",               limit: 255, default: "",     null: false
-    t.string   "email",               limit: 255, default: "",     null: false
-    t.string   "crypted_password",    limit: 255, default: "",     null: false
-    t.string   "password_salt",       limit: 255, default: "",     null: false
-    t.string   "persistence_token",   limit: 255, default: "",     null: false
-    t.string   "single_access_token", limit: 255, default: "",     null: false
-    t.string   "perishable_token",    limit: 255, default: "",     null: false
-    t.integer  "login_count",                     default: 0,      null: false
-    t.integer  "failed_login_count",              default: 0,      null: false
+    t.string   "login",               default: "",     null: false
+    t.string   "email",               default: "",     null: false
+    t.string   "crypted_password",    default: "",     null: false
+    t.string   "password_salt",       default: "",     null: false
+    t.string   "persistence_token",   default: "",     null: false
+    t.string   "single_access_token", default: "",     null: false
+    t.string   "perishable_token",    default: "",     null: false
+    t.integer  "login_count",         default: 0,      null: false
+    t.integer  "failed_login_count",  default: 0,      null: false
     t.datetime "last_request_at"
     t.datetime "current_login_at"
     t.datetime "last_login_at"
-    t.string   "current_login_ip",    limit: 255
-    t.string   "last_login_ip",       limit: 255
-    t.string   "first_name",          limit: 255
-    t.string   "last_name",           limit: 255
-    t.string   "address1",            limit: 255
-    t.string   "address2",            limit: 255
-    t.string   "city",                limit: 255
-    t.string   "county",              limit: 255
-    t.string   "postcode",            limit: 255
-    t.string   "phone",               limit: 255
-    t.string   "status",              limit: 255, default: "user"
-    t.boolean  "banned",                          default: false
+    t.string   "current_login_ip"
+    t.string   "last_login_ip"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "county"
+    t.string   "postcode"
+    t.string   "phone"
+    t.string   "status",              default: "user"
+    t.boolean  "banned",              default: false
   end
 
   create_table "watchings", force: :cascade do |t|

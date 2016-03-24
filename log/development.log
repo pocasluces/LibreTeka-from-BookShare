@@ -16425,3 +16425,17 @@ Started GET "/login" for 127.0.0.1 at 2016-03-23 19:31:57 +0100
 Processing by UserSessionsController#new as HTML
   Rendered user_sessions/new.html.haml within layouts/application (5.0ms)
 Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-24 09:11:55 +0100
+Processing by PagesController#home as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  Rendered pages/home.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 242ms (Views: 231.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2016-03-24 09:12:15 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.haml (11.2ms)
+  Rendered users/new.html.haml within layouts/application (140.4ms)
+Completed 200 OK in 166ms (Views: 146.0ms | ActiveRecord: 0.0ms)
