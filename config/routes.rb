@@ -24,6 +24,7 @@ NestaBookshare::Application.routes.draw do
   
   resources :user_sessions
   resources :password_resets
+  resources :messages
 
   get 'watchlist' => "users#watched_books"
   get 'login' => "user_sessions#new",      :as => :login
