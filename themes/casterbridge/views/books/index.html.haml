@@ -1,18 +1,18 @@
-%h1= @page_title = "My Books"
 
 .panel
 
 
-  = theme_image_tag 'barcode.jpg', :alt => "Barcode example", :id => "barcode"
 
-  %h2 Add a Book
+  %h2 Añade un libro a tu biblioteca.
   
   = form_tag :action => 'create'
   %p
-    13-digit ISBN (the number at the bottom of the barcode starting with 978)
+    Para introducir un libro escribe el dígito ISBN.
+    %br
+    (los 13 números que aparecen debajo del código de barras)
     %br
     %input.bigfield{ :id => 'isbn13', :type => 'text', :name => 'isbn13', :size => 20, :maxlength => 13 }
-    %input.bigfield{:type => 'submit', :value => 'Add Book' }
+    %input.bigfield{:type => 'submit', :value => 'Añadir Libro' }
       
 
 
@@ -46,6 +46,6 @@
           - if book.status == StaticData::BOOK_STATUS['AVAILABLE']
             = link_to 'Delete', book, :confirm => 'Are you sure?', :method => :delete
 - else
-  %p You don't have any books.
+  %p No tienes ningún libro en tu biblioteca.
 
 = set_focus_to_id 'isbn13'

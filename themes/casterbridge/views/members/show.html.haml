@@ -15,38 +15,43 @@
       = current_user.email
 
 %p
-  = link_to "Send a message to #{@user.login}", :controller => :messages, :action => :new, :recipient => @user.login
+  = link_to "Enviar un mensaje a #{@user.login}", :controller => :messages, :action => :new, :recipient => @user.login
 
 .scorecard
   %table
     %tr
       %td
-        Member since
+        Registrado desde
         = @user.created_at.strftime("%B %Y")
     %tr
       %td
-        = pluralize(@user.books.count, "book")
-        listed
+        = pluralize(@user.books.count, "libros")
+        en tu librería
+
     %tr
       %td
-        = pluralize(@user.borrowings.count, "book")
-        borrowed
+        Actualmente tienes 
+        = (pluralize(@user.active_borrowings.count, "libros"))
+        prestados de otros usuarios.
     %tr
       %td
-        = pluralize(@user.loans.count, "book")
-        lent
+        Actualmente tienes
+        = (pluralize(@user.active_loans.count, "libros"))
+        prestados a otros usuarios.
     %tr
       %td
-        = (pluralize(@user.active_borrowings.count, "book"))
-        currently borrowed from others
+        Has tomado
+        = pluralize(@user.borrowings.count, "libros")
+        prestados en total.
     %tr
       %td
-        = (pluralize(@user.active_loans.count, "book"))
-        currently lent to others
+        Has dejado 
+        = pluralize(@user.loans.count, "libros")
+        prestados en total
 
 %h2
-  = link_to (theme_image_tag 'rss-mono.png'),  :controller => :members, :action => :show, :login => @user.login, :format => :atom
-  Books
+  
+  Listado de libros:
 
 - if @user.books.count > 0
   %table        
@@ -61,8 +66,8 @@
             = book.title.subtitle
           %br
           %br
-            = link_to book.title.authors.first.name, author_path (book.title.authors.first)
+            = link_to book.title.authors.first.name, author_path(book.title.authors.first)
 - else
   %p
     = @user.login
-    doesn't have any books to lend right now.
+    no tiene ningún libro prestado a otro usuario actualmente.

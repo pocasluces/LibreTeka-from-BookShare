@@ -1,7 +1,7 @@
 %h1 Users
 
 #admins
-  %h2 Administrators
+  %h2 Administradores.
   
   - if @admins.count > 0
   
@@ -13,7 +13,7 @@
           %td
             = user.status
           %td
-            - form_for user, :method => 'post', :url => demote_user_path(:id => user.login) do |f|
+            = form_for user, :method => 'post', :url => demote_user_path(:id => user.login) do |f|
               = f.error_messages
               = f.submit "Demote"
   - else
@@ -22,7 +22,7 @@
 
         
 #banned        
-  %h2 Banned Users
+  %h2 Usuarios banneados.
   
   - if @banned.count > 0
   
@@ -34,13 +34,13 @@
           %td
             = user.status
           %td
-            - form_for user, :url => unban_user_path(user.id) do |f|
+            = form_for user, :url => unban_user_path(user.id) do |f|
               = f.error_messages
               = f.submit "Unban"        
   
   - else
   
-    %p No users are banned.
+    %p No hay usuarios banneados.
   
   
 #non_admins        
@@ -58,7 +58,7 @@
           %td
             = link_to "Ban", new_ban_path(:login => user.login)
           %td
-            - form_for user, :method => 'post', :url => promote_user_path(:id => user.login) do |f|
+            = form_for user, :method => 'post', :url => promote_user_path(:id => user.login) do |f|
               = f.error_messages
               = f.submit "Promote"
               

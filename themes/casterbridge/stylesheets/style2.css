@@ -1,5 +1,6 @@
 body {
-  background-color: #fff; color: #333;
+  background-color: #fff;
+  color: #000;
   width: 960px;
   margin: 30px auto;
 }
@@ -8,6 +9,10 @@ body, p, ol, ul, td {
   font-family: arial, helvetica, sans-serif;
   font-size:   100%;
   line-height: 18px;
+}
+
+p {
+  margin: 20px 0;
 }
 
 pre {
@@ -31,6 +36,13 @@ td
   margin: 5px 0;
 }
 
+.book_grid td {
+  border: 0;
+  padding: 15px 20px 15px 0;
+  margin: 5px 0;
+  background-color: #fff;
+}
+
 th
 {
   text-align: left;
@@ -44,16 +56,18 @@ th
 h1
 {
   font-size: 170%;
+  margin: 20px 0;
 }
 
 h2
 {
   font-size: 130%;
+  margin: 20px 0;
 }
 
 h1.logo
 {
-  color: #d12349;
+  color: #000;
   font-size: 250%;
   margin: 0;
 }
@@ -61,6 +75,7 @@ h1.logo
 .logo img
 {
   vertical-align: text-bottom;
+  margin: 0 20px 0 0;
 }
 
 #notice {
@@ -118,7 +133,7 @@ h1.logo
 
 .panel
 {
-  background-color: beige;
+  background-color: #eee;
   padding: 10px 20px;
   margin: 10px 0;
 }
@@ -147,7 +162,7 @@ h1.logo
 .help
 {
   padding: 20px;
-  background-color: beige;
+  background-color: #eee;
   color: black;
   margin: 20px 0;
   line-height: 150%;
@@ -167,6 +182,7 @@ h1.logo
 img
 {
   border: 0;
+  vertical-align: text-top;
 }
 
 #barcode
@@ -177,7 +193,7 @@ img
 
 div
 {
-  margin: 10px 0;
+  margin: 40px 0;
 }
 
 #search
@@ -187,7 +203,7 @@ div
 
 #puffbox
 {
-  background-color: beige;
+  background-color: #eee;
   font-size:        100%;
   padding:          10px 30px;
   width:            900px;
@@ -195,12 +211,12 @@ div
 
 a.button, a.button:visited
 {
-  background-color: green;
+  background-color: #333;
   color:            white;
   padding:          10px 20px;
   text-decoration:  none;
   font-size:        135%;
-  margin:           20px 0;
+  margin:           20px 0 20px 20px;
 }
 
 a.button:hover

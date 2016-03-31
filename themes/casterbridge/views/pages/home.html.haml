@@ -1,17 +1,21 @@
 - content_for :head do
   = auto_discovery_link_tag :atom, titles_path(:format => :atom), { :title => "#{CONFIG[:sitename]}: New books" }
 
-#puffbox
-  %p{ :style => 'font-size: 200%' }
-    Lend and borrow books with your neighbours in Anytown
+#home
+  #mascota
+    <IMG SRC="/images/mascota.png" ALT="La primera biblioteca física p2p" WIDTH=300 HEIGHT=100% >
 
-  - unless current_user
-    %p{ :style => 'float: right' }
-      = link_to "Sign up now", :register, :class => "button"
+  #puffbox
+    %p{ :style => 'font-size: 200%; line-height: 40px'}
+      Prestamos entre iguales en tu vecindario o en cualquier ciudad.
     
-  %p
-    = CONFIG[:sitename] 
-    helps you to lend and borrow books. It's free, easy to use and open to everyone who lives or works in Anytown.
+    %p
+      Si a ti también te gusta la vida que tienen los libros prestados...
+      = link_to_unless_current "Regístrate", :register
+
+
+
+
 
 .clear
   
