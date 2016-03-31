@@ -4,6 +4,12 @@ ruby "2.1.5"
 
 gem 'rails'
 #gem 'actionmailer', '~> 4.2', '>= 4.2.2'
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
+
+
 gem 'authlogic'
 gem 'rails3-generators'
 gem 'dynamic_form'
@@ -48,9 +54,7 @@ group :development, :test do
 #   gem 'webrat'
 end
 
-group :production do
-  gem 'pg'
-end
+
 
 #gem 'archive-tar-minitar'
 #gem 'hoe'
