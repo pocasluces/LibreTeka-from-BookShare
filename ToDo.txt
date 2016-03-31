@@ -2,3 +2,4 @@ ToDo:
 
 	1 No route matches [POST] "/messages/create": No se pueden enviar mensajes electrónicos de un usuario a otro a través de la aplicación.
 
+	2 Ha que cambiar la configuracion de la aplicación mediante themes.
