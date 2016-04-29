@@ -4,8 +4,8 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.xml
   def index
-    @books = Book.where(user_id = current_user.id, :order => 'updated_at DESC')
-
+   # @books = Book.where(current_user.id, :order => 'updated_at DESC')
+      @books = current_user.books.order(updated_at: :desc)
     respond_to do |format|
       format.html # index.html.erb
 #       format.xml  { render :xml => @books.to_xml(:include => :title) }
