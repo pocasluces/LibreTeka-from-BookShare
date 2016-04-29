@@ -8,7 +8,7 @@ ToDo:
 
 	4 Se sustitulle find_all_ por where.
 	
-	5 quitar BOOKSHARE_THEME = casterbridge 
+	5 quitar BOOKSHARE_THEME = casterbridge HECHO
 
 	6 La miniatura de la pestaña aparece un arbolito cuando debería aparecer el buho.
 
