@@ -3,16 +3,6 @@
 
 %h1= @page_title = @user.login
 
-= image_tag @user.gravatar_image_url(80)
-
-- if current_user == @user
-  .help
-    Add or update your picture here with
-    %a{ :href => 'http://www.gravatar.com/' }<
-      Gravatar
-    using your email address
-    %strong
-      = current_user.email
 
 %p
   = link_to "Enviar un mensaje a #{@user.login}", :controller => :messages, :action => :new, :recipient => @user.login

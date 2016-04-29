@@ -18,15 +18,12 @@
         = form_tag(search_path, :method => :get) do
           = text_field_tag :q, '', { :size => 25, :class => 'bigfield' }
           = submit_tag "Buscar Libro", { :class => 'bigfield' }
-        
-    %h1.logo
-      = CONFIG[:sitename]
+      
       
     #userbar
       = link_to_unless_current "Inicio", :root, :accesskey => '1'
       &nbsp;&nbsp;
       - if current_user
-        = image_tag current_user.gravatar_image_url(25), :alt => current_user.login
         Conectado como
         %strong
           = link_to current_user.login, :controller => :members, :action => :show, :login => current_user.login

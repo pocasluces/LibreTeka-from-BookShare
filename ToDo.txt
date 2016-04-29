@@ -3,3 +3,13 @@ ToDo:
 	1 No route matches [POST] "/messages/create": No se pueden enviar mensajes electrónicos de un usuario a otro a través de la aplicación.
 
 	2 Ha que cambiar la configuracion de la aplicación mediante themes.
+
+	3 Se sustituye "- form_for" por "= form_for"
+
+	4 Se sustitulle find_all_ por where.
+	
+	5 quitar BOOKSHARE_THEME = casterbridge 
+
+	6 La miniatura de la pestaña aparece un arbolito cuando debería aparecer el buho.
+
+	7 hay que cepillarse todas las imágenes de gravatar.
