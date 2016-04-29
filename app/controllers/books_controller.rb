@@ -98,11 +98,11 @@ class BooksController < ApplicationController
       @book.destroy
   
       respond_to do |format|
-        format.html { redirect_to(books_url, :notice => "Book deleted OK") }
+        format.html { redirect_to(books_path, :notice => "Book deleted OK") }
         format.xml  { head :ok }
       end
     else
-      redirect_to(books_url, :notice => "You can't delete books that are on loan")
+      redirect_to(books_path, :notice => "You can't delete books that are on loan")
     end
   end
 end
