@@ -13,3 +13,5 @@ ToDo:
 	6 La miniatura de la pestaña aparece un arbolito cuando debería aparecer el buho.
 
 	7 hay que cepillarse todas las imágenes de gravatar.
+
+	8 No se puede eliminar libros.

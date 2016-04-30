@@ -2,9 +2,11 @@ NestaBookshare::Application.routes.draw do
 
   #themes_for_rails
   
+  #delete 'deletebook' => 'books#destroy', :as => :deletebook
+
   resources :authors
   resources :bans
-  resources :books
+  resources :books #, only: [:destroy, :index]
   resources :loans
   resources :subjects
   resources :titles
@@ -39,7 +41,8 @@ NestaBookshare::Application.routes.draw do
   get 'accessibility' => 'pages#accessibility', :as => :accessibility
   get 'contact' => 'pages#contact', :as => :contact
   
-  
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

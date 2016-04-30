@@ -1,4 +1,3 @@
-
 .panel
 
 
@@ -44,7 +43,7 @@
             = book.status_text
         %td
           - if book.status == StaticData::BOOK_STATUS['AVAILABLE']
-            = link_to 'Delete', book, :confirm => 'Are you sure?', :method => :delete
+            = link_to_unless_current 'Delete', book, method: :delete
 - else
   %p No tienes ningún libro en tu biblioteca.
 

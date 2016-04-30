@@ -15,15 +15,15 @@ class BooksController < ApplicationController
 
   # GET /books/1
   # GET /books/1.xml
-  def show
-    @book = Book.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @book }
-      format.json { render :json => @book }
-    end
-  end
+  #def show
+  #  @book = Book.find(params[:id])
+  #
+  #  respond_to do |format|
+  #    format.html # show.html.erb
+  #    format.xml  { render :xml => @book }
+  #    format.json { render :json => @book }
+  #  end
+  #end
 
   # GET /books/new
   # GET /books/new.xml
@@ -92,17 +92,17 @@ class BooksController < ApplicationController
   # DELETE /books/1
   # DELETE /books/1.xml
   def destroy
-    @book = current_user.books.find(params[:id])
+  #  @book = current_user.books.find(params[:id])
 
-    if @book.available?
+   # if @book.available?
       @book.destroy
   
-      respond_to do |format|
-        format.html { redirect_to(books_path, :notice => "Book deleted OK") }
-        format.xml  { head :ok }
-      end
-    else
-      redirect_to(books_path, :notice => "You can't delete books that are on loan")
-    end
+    #  respond_to do |format|
+    #   format.html { redirect_to(books_url, :notice => "Book deleted OK") }
+    #    format.xml  { head :ok }
+    #  end
+    #else
+    #  redirect_to(books_url, :notice => "You can't delete books that are on loan")
+    #end
   end
 end
